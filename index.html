@@ -18,12 +18,12 @@
     <!-- nav bar -->
     <nav>
         <div class="nav-bar">
-            <ul>
-                <li>
+            <ul class="normal-ul">
+                <li class="normal-ul-list-item">
                     <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy" width="91"
                         height="34">
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <a href="" class="model-category"><span>Categories</span>
                         <div class="tool-tip-model-catergory">
                             <ul>
@@ -34,7 +34,7 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <div class="search-box">
                         <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" width="16" height="16"
                             fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -44,13 +44,13 @@
                         <input type="text" name="" id="" value="" placeholder="Search for anything" autocomplete="off">
                     </div>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <a href=""><span>Udemy Business</span></a>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <a href=""><span>Teach on Udemy</span></a>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <div class="btn-cart">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-cart3 cart-i" viewBox="0 0 16 16">
@@ -59,13 +59,13 @@
                         </svg>
                     </div>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <div class="btn-text btn-text-background"><span>Log in</span></div>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <div class="btn-text btn-text-signup"><span>Sign up</span></div>
                 </li>
-                <li>
+                <li class="normal-ul-list-item">
                     <div class="btn-text btn-text-background">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-globe" viewBox="0 0 16 16">
@@ -76,12 +76,45 @@
 
                 </li>
             </ul>
+            <ul class="ul-800">
+                <li>
+                    <div class="menu-div">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/logo-ub.svg" alt="udemy-logo" width="75" height="28">
+                </li>
+                <li>
+                    <div class="search-cart">
+                        <div class="search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </div>
+                        <div class="cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
 
 
     <!-- main section -->
     <main>
+        
         <!-- banner section -->
         <div class="banner">
             <!-- Slider main container -->
@@ -117,6 +150,7 @@
             </div>
         </div>
 
+
         <!-- partner companies -->
         <div class="partners">
             <div class="partner-text">
@@ -150,6 +184,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- feedback section -->
         <div class="feedback-section">
@@ -595,30 +630,270 @@
         <!-- Featured topics by category -->
         <div class="topics-by-category">
             <h3>Featured topics by category</h3>
-                <div class="row">
-                    <div class="col-3">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                          </ul>
-                    </div>
-                    <div class="col-3">
-                        1 of 3
-                    </div>
-                    <div class="col-3">
-                        1 of 3
-                    </div>
-                    <div class="col-3">
-                        1 of 3
+            <div class="row">
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <h5>Development</h5>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Python</span>
+                                </a>
+                                <span>36,354,994 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Web Development</span>
+                                </a>
+                                <span>11,415,615 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Machine Learning</span>
+                                </a>
+                                <span>7,070,015 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="btn-explore">Explore more topics</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <h5>Business</h5>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Financial Analysis</span>
+                                </a>
+                                <span>1,195,282 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>SQL</span>
+                                </a>
+                                <span>5,977,561 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>PMP</span>
+                                </a>
+                                <span>1,733,398 learners</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <h5>IT and Software</h5>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Amazon AWS</span>
+                                </a>
+                                <span>6,123,456 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Ethical Hacking</span>
+                                </a>
+                                <span>10,931,066 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Cyber Security</span>
+                                </a>
+                                <span>3,998,037 learners</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <h5>Design</h5>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Photoshop</span>
+                                </a>
+                                <span>10,909,736 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Graphic Design</span>
+                                </a>
+                                <span>3,381,052 learners</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <span>Drawing</span>
+                                </a>
+                                <span>2,410,849 learners</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- bussiness section post -->
+        <div class="udemy-bussiness">
+            <div class="main-container">
+                <div class="text-container">
+                    <img src="images/logo-ub.svg" alt="logo-ub" width="190" height="32">
+                    <h2>Upskill your team with Udemy Business</h2>
+                    <ul>
+                        <li>
+                            <span>Unlimited access to 25,000+ top Udemy courses, anytime, anywhere</span>
+                        </li>
+                        <li>
+                            <span>International course collection in 14 languages</span>
+                        </li>
+                        <li>
+                            <span>Top certifications in tech and business</span>
+                        </li>
+                    </ul>
+                    <div class="getudemy-learnmore">
+                        <span class="get-udemy">Get Udemy Bussiness</span>
+                        <span class="learn-more">Learn more</span>
                     </div>
                 </div>
+                <div class="image-container">
+                    <img src="images/UB_Promo.jpg" alt="UB_Promo" height="400" width="400">
+                </div>
+            </div>
+        </div>
+
+        <!-- stories section -->
+        <div class="stories-container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 text-section">
+                                <img src="images/quote.svg" alt="" width="17" height="16">
+                                <p>Thanks to Udemy Business, Booz Allen has armed our workforce, specifically its
+                                    <b>data scientists, with highly relevant and in-demand tech skills</b> that are
+                                    enabling consultants to stay ahead of big data trends and raise the bar on
+                                    proficiency, skills, and competencies to meet client demand.
+                                </p>
+                                <a href="">Read full story</a>
+                            </div>
+                            <div class="col-6 image-section">
+                                <img src="images/James_Hemgen.jpeg" alt="" height="120" width="128">
+                                <h4>Jim Hemgen</h4>
+                                <p>Principal</p>
+                                <p>Booz Allen Hamilton</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 text-section">
+                                <img src="images/quote.svg" alt="" width="17" height="16">
+                                <p>With Udemy Business employees were able to marry the two together, technology and
+                                    consultant soft skills. We're thankful that once they got in and took their key IT
+                                    courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they efficiently
+                                    moved over to Consulting courses to help drive their career forward.</p>
+                                <a href="">Read full story</a>
+                            </div>
+                            <div class="col-6 image-section">
+                                <img src="images/Ian_Stevens.png" alt="" height="120" width="128">
+                                <h4>Ian Stevens</h4>
+                                <p>Global Head of Capability Development
+                                    North America</p>
+                                <p>Publicis Sapient</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 text-section">
+                                <img src="images/quote.svg" alt="" width="17" height="16">
+                                <p>To stay at the leading edge of IT innovation, your team needs to regularly reinvent
+                                    its skillset. With Udemy Business, I can give my team the space to learn and take
+                                    the initiative. It means we can <b>produce higher quality work more quickly</b>.
+                                </p>
+                                <a href="">Read full story</a>
+                            </div>
+                            <div class="col-6 image-section">
+                                <img src="images/Ismaeel_Ameen.png" alt="" height="120" width="128">
+                                <h4>Ismaeel Ameen
+                                </h4>
+                                <p>Head of Data Engineering
+                                    Development and Data Management
+                                </p>
+                                <p>Robert Walters</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 text-section">
+                                <img src="images/quote.svg" alt="" width="17" height="16">
+                                <p>Udemy has been a great platform to stay competitive in the digital transformation of
+                                    the workplace by offering fresh, relevant, personalized on-demand learning content
+                                    powered by a dynamic content marketplace.
+                                </p>
+                                <a href="">Read full story</a>
+                            </div>
+                            <div class="col-6 image-section">
+                                <img src="images/Karen_hunter.png" alt="" height="120" width="128">
+                                <h4>Karen Hunter
+                                </h4>
+                                <p>America's Team Lead
+                                    Learning & Development
+                                </p>
+                                <p>Steelcase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+            <div class="view-more-stories">
+                <a href="">View more customer stories</a>
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg></span>
+            </div>
         </div>
 
     </main>
-
 
 
     <footer>
@@ -677,7 +952,6 @@
             </div>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
