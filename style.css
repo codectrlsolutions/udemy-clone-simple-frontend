@@ -301,6 +301,30 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* feedback section */
 .feedback-section {
     margin: 100px 0;
@@ -847,6 +871,75 @@ nav {
     color: #A435F0;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*become a instrunctor*/
+.instruction {
+    width: 100%;
+    margin: 100px 0;
+    padding: 0 15%;
+}
+
+.instruction .main-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.instruction .main-container .text-container {
+    padding: 100px;
+}
+
+.instruction .main-container .text-container h2 {
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.instruction .main-container .text-container p {
+    font-size: 19px;
+}
+
+.instruction .main-container .text-container span {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 12px;
+    font-weight: 700;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+.instruction .main-container .text-container span:hover {
+    cursor: pointer;
+    background-color: #3e4143;
+}
+
+
+
+
 
 
 
