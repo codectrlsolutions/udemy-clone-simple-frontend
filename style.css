@@ -355,7 +355,8 @@ nav {
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container h4,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container h4,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container h4,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container h4{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container h4,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container h4{
     font-weight: 700;
 }
 
@@ -364,7 +365,8 @@ nav {
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container p,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container p,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container p,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container p{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container p,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container p{
     font-size: 16px;
 }
 
@@ -373,7 +375,8 @@ nav {
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container a,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container a,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container a,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container a{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container a,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container a{
     padding: 12px;
     font-weight: 700;
     border: 1px solid black;
@@ -386,7 +389,8 @@ nav {
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container a:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container a:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container a:hover,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container a:hover{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container a:hover,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container a:hover{
 background-color: rgba(23, 57, 83, .12);
 }
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .python-container .slider-container,
@@ -394,7 +398,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container{
     margin-top: 48px;
     width: 100%;
     height: auto;
@@ -408,7 +413,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card{
     flex: 19%;
     width: 19%;
     margin-right: 1%;
@@ -420,7 +426,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card:hover,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card:hover{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card:hover,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card:hover{
     cursor: pointer;
 }
 
@@ -429,7 +436,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .card-img-top:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .card-img-top:hover,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .card-img-top:hover,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-img-top:hover{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-img-top:hover,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .card-img-top:hover{
         opacity: 0.5;
 }
 
@@ -438,7 +446,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card:hover .main-model-1,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card:hover .main-model-1,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card:hover .main-model-1,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card:hover .main-model-1{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card:hover .main-model-1,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card:hover .main-model-1{
     display: block;
 
 }
@@ -448,7 +457,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .card-text,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .card-text,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .card-text,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-text{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-text,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .card-text{
     display: flex;
     flex-direction: column;
 }
@@ -458,7 +468,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .card-text .type,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .card-text .type,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .card-text .type,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-text .type{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .card-text .type,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .card-text .type{
     background-color: yellow;
     padding: 2px 5px;
     font-weight: 500;
@@ -469,7 +480,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1{
     display: none;
     z-index: 1000;
     padding: 24px;
@@ -486,7 +498,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1 ul,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1 ul,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1 ul,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 ul{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 ul,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1 ul{
     list-style-type: '\2713';
     margin: 0;
     padding: 0;
@@ -498,7 +511,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1 ul li,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1 ul li,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1 ul li,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 ul li{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 ul li,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1 ul li{
     padding: 0 0 0 24px;
 }
 
@@ -507,7 +521,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1 .add-heart,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1 .add-heart,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1 .add-heart,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1 .add-heart{
     display: flex;
     justify-content: space-evenly;
     margin-top: 12px;
@@ -518,7 +533,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1 .add-heart .add,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1 .add-heart .add,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1 .add-heart .add,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart .add{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart .add,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1 .add-heart .add{
     padding: 12px 48px;
     background-color: #A435F0;
     color: white;
@@ -530,7 +546,8 @@ background-color: rgba(23, 57, 83, .12);
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .web-development-container .slider-container .card .main-model-1 .add-heart .heart,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .javascript-container .slider-container .card .main-model-1 .add-heart .heart,
 .broad-section-of-courses .bsc-main-container .bsc-sub-container .data-science-container .slider-container .card .main-model-1 .add-heart .heart,
-.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart .heart{
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .amazon-aws-container .slider-container .card .main-model-1 .add-heart .heart,
+.broad-section-of-courses .bsc-main-container .bsc-sub-container .drawing-container .slider-container .card .main-model-1 .add-heart .heart{
     padding: 12px;
     border: 1px solid black;
     border-radius: 50%;
