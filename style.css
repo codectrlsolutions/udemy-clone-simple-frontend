@@ -4,123 +4,136 @@
     box-sizing: border-box;
 }
 
-:root {
-    --theme_color: #A435F0;
-}
-
-
 /* Header section */
-nav {
+.nav-bar {
     width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
     padding: 0 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    height: 72px;
     z-index: 1000;
 }
 
-.nav-bar {
-    width: 100%;
-    height: 72px;
-    background-color: #ffffff;
-}
-
-.nav-bar .normal-ul {
+.nav-bar .ul-normal {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .ul-normal li {
+    cursor: pointer;
+}
+
+.nav-bar .ul-normal li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar .ul-normal li a:hover {
+    color: blue;
+}
+
+.nav-bar .ul-normal li .search-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    padding: 6px 12px;
+    margin: 10px 0;
+}
+
+.nav-bar .ul-normal li .search-box .search-icon {
+    cursor: not-allowed;
+    opacity: 0.5;
+    margin-right: 12px;
+}
+
+.nav-bar .ul-normal li .search-box input {
+    border: transparent;
+    outline: none;
+}
+
+.nav-bar .ul-normal li .login {
+    border: 1px solid black;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+.nav-bar .ul-normal li .login:hover {
+    color: black;
+}
+
+.nav-bar .ul-normal li .signup {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 6px 12px;
+    border: 1px solid black;
+}
+
+.nav-bar .ul-normal li .signup:hover {
+    color: white;
+}
+
+.nav-bar .ul-normal li .globe {
+    padding: 5px 10px;
+    font-weight: 700;
+    border: 1px solid black;
 }
 
 .nav-bar .ul-800 {
     display: none;
 }
 
-.nav-bar .normal-ul .normal-ul-list-item {
-    display: inline-block;
-    cursor: pointer;
-    margin: 10px 0;
+@media screen and (max-width:1080px) {
+    .nav-bar .ul-normal .li-udemy-bussiness {
+        display: none;
+    }
 }
 
-.nav-bar .normal-ul .normal-ul-list-item img {
-    max-width: 100%;
-    height: auto;
+@media screen and (max-width:920px) {
+    .nav-bar .ul-normal .li-teach-on-udemy {
+        display: none;
+    }
 }
 
-.nav-bar .normal-ul .normal-ul-list-item a {
-    text-decoration: none;
-    color: #2d2f31;
-}
-
-.nav-bar .normal-ul .normal-ul-list-item a:hover {
-    color: blue;
-}
-
-.model-category {
-    position: relative;
-    display: inline-block;
-}
-
-.model-category .tool-tip-model-catergory {
-    visibility: hidden;
-    color: black;
-    top: 50px;
-    background-color: blue;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-
-.model-category:hover .tool-tip-model-catergory {
-    visibility: visible;
-}
-
-.search-box {
-    border: 1px solid black;
-    border-radius: 20px;
-    align-items: center;
-    width: 560px;
-    padding: 10px;
-}
-
-.search-box .search-icon {
-    cursor: not-allowed;
-    opacity: 0.5;
-    margin-right: 5px;
-}
-
-.search-box input {
-    border: transparent;
-    width: 500px;
-    outline: none;
-}
-
-.btn-cart {
-    padding: 6px 12px;
-    font-weight: 600;
-}
-
-.btn-text {
-    border: 1px solid black;
-    padding: 6px 12px;
-    font-weight: 600;
-}
-
-.btn-text-background:hover {
-    background-color: lightblue;
-}
-
-.btn-text-signup {
-    background-color: black;
-    color: white;
-}
-
-@media only screen and (max-width: 800px) {
-    .ul-800 {
-        display: block;
-        justify-content: space-between;
+@media screen and (max-width:800px) {
+    .nav-bar {
+        height: 56px;
     }
 
-    .normal-ul {
+    .nav-bar .ul-normal {
         display: none;
+    }
+
+    .nav-bar .ul-800 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar .ul-800 li {
+        cursor: pointer;
+        margin: 10px 0;
+    }
+
+    .nav-bar .ul-800 li .menu {
+        height: 40px;
+        height: 40px;
+    }
+
+    .nav-bar .ul-800 li .search-cart-container div {
+        display: inline-block;
+    }
+
+    .nav-bar .ul-800 li .search-cart-container .search {
+        margin-right: 1.2rem;
     }
 }
 
@@ -140,56 +153,16 @@ nav {
 @media only screen and (min-width: 1200px) {}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main section */
-
-
 /* banner section here */
 .banner {
     width: 100%;
     height: auto;
 }
 
-.banner .swiper {
+.banner .swiper .swiper-wrapper .swiper-slide img {
     width: 100%;
-    /* padding: 0 12px; */
-}
-
-.banner .swiper .swiper-wrapper {
-    width: 100%;
-}
-
-.banner .swiper .swiper-wrapper .swiper-slide {
-    max-width: 100%;
-}
-
-.banner .swiper .swiper-wrapper .swiper-slide .img {
-    max-width: 100%;
     height: auto;
-    background-size: cover;
 }
 
 .banner .swiper .swiper-wrapper .swiper-slide .popup {
@@ -228,31 +201,41 @@ nav {
 .banner .swiper .swiper-button-next:hover {
     background-color: #39393a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:980px){
+    .banner .swiper .swiper-wrapper .swiper-slide .popup {
+        width: 450px;
+        padding: 15px;
+        z-index: 1000;
+        top: 20px;
+        left: 60px;
+        background-color: white;
+    }  
+}
+@media screen and (max-width:700px){
+    .banner .swiper .swiper-wrapper .swiper-slide .popup {
+        position: static;
+        padding: 24px;
+        width: 100%;
+    }
+    
+    .banner .swiper .swiper-wrapper .swiper-slide .popup .pop-btn {
+        display: inline-block;
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        padding: 8px;
+    }
+    
+    .banner .swiper .swiper-wrapper .swiper-slide .popup .pop-btn:hover {
+        background-color: #39393a;
+        cursor: pointer;
+    }
+    
+    .banner .swiper .swiper-button-prev,
+    .banner .swiper .swiper-button-next {
+        display: none;
+    }
+}
 
 
 /* partner-imgs */
@@ -283,29 +266,6 @@ nav {
         justify-content: space-around;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* A broad selection of courses */
@@ -563,34 +523,6 @@ nav {
     border-radius: 50%;
 }
 
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* feedback section */
 .feedback-section {
@@ -650,57 +582,6 @@ nav {
 .feedback-section .main-card-container .card-container .video-text-section span {
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Learners are viewing */
@@ -792,66 +673,8 @@ nav {
     border-radius: 50%;
 }
 
-/* .learners-viewing-container .main-card-container .card .main-model-2{
-    display: none;
-    z-index: 1000;
-    padding: 24px;
-    top: -50px;
-    right: 108%;
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    border: 1px solid black;
-}
-.learners-viewing-container .main-card-container .card .main-model-2 ul{
-    list-style-type: '\2713';
-    margin: 0;
-    padding: 0;
-    list-style-position: outside;
-}
-.learners-viewing-container .main-card-container .card .main-model-2 ul li{
-    padding: 0 0 0 24px;
-} */
-/* .learners-viewing-container .main-card-container .card-container{
-    width: 19%;
-    border: 1px solid black;
-    padding: 24px;
-    flex: 19%;
-}
-.learners-viewing-container .main-card-container .card-container .image-section{
-    height: 40%;
-    background-color: red;
-    border: 1px solid black;
-}
-.learners-viewing-container .main-card-container .card-container .text-section{
-    height: 60%;
-    background-color: blue;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Top categories */
-
 .top-categories-container {
     margin: 100px 0;
     width: 100%;
@@ -886,8 +709,6 @@ nav {
 
 .top-categories-container .top-categories .single-category .category-title {
     margin-bottom: 12px;
-    /* max-width: 100%;
-    max-height: 100%; */
 }
 
 @media screen and (max-width:700px) {
@@ -915,25 +736,6 @@ nav {
         padding: 5px 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Featured topics by category */
@@ -1001,44 +803,21 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* bussiness section */
 .udemy-bussiness {
     width: 100%;
     margin: 100px 0;
-    padding: 0 15%;
+    padding: 0 24px;
 }
 
 .udemy-bussiness .main-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-evenly;
 }
 
 .udemy-bussiness .main-container .text-container {
-    padding: 12px 100px 12px 0;
+    padding: 0;
 }
 
 .udemy-bussiness .main-container .text-container img,
@@ -1087,6 +866,8 @@ nav {
         display: grid;
         grid-template-columns: auto;
         padding: 0;
+        justify-content: center;
+        align-items: center;
     }
 
     .udemy-bussiness .main-container .text-container {
@@ -1096,19 +877,17 @@ nav {
     }
 
     .udemy-bussiness .main-container .text-container img {
-        max-width: 100%;
-        height: auto;
-        vertical-align: middle;
-    }
-
-    .udemy-bussiness .main-container .text-container h2 {
-        text-align: center;
+        margin: 0 auto;
     }
 
     .udemy-bussiness .main-container .image-container {
         grid-row: 1;
         width: 100%;
         height: 100%;
+    }
+
+    .udemy-bussiness .main-container .image-container img {
+        margin: 0 auto;
     }
 
     .udemy-bussiness .main-container .text-container .getudemy-learnmore {
@@ -1118,30 +897,6 @@ nav {
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* stories section */
@@ -1204,29 +959,6 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*become a instrunctor*/
 .instruction {
     width: 100%;
@@ -1285,7 +1017,7 @@ nav {
     }
 
     .instruction .main-container .image-container img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         margin: 0 auto;
         display: block;
@@ -1308,30 +1040,6 @@ nav {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer section */
@@ -1468,7 +1176,7 @@ footer {
         margin-bottom: 24px;
     }
 
-    .footer-section .row-2 .column-left{
+    .footer-section .row-2 .column-left {
         margin-bottom: 12px;
     }
 }
