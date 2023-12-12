@@ -35,7 +35,27 @@
 .nav-bar .ul-normal li a:hover {
     color: blue;
 }
-
+.nav-bar .ul-normal li .category-container{
+    position: relative;
+    display: inline-block;
+}
+.nav-bar .ul-normal li .category-container:hover .category-list-section{
+    display: block;
+    /* visibility: visible; */
+}
+.nav-bar .ul-normal li .category-container .category-list-section{
+    display: none;
+    /* visibility: hidden; */
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1000;
+    top: 24px;
+}
 .nav-bar .ul-normal li .search-box {
     border: 1px solid black;
     border-radius: 20px;
@@ -201,7 +221,8 @@
 .banner .swiper .swiper-button-next:hover {
     background-color: #39393a;
 }
-@media screen and (max-width:980px){
+
+@media screen and (max-width:980px) {
     .banner .swiper .swiper-wrapper .swiper-slide .popup {
         width: 450px;
         padding: 15px;
@@ -209,15 +230,16 @@
         top: 20px;
         left: 60px;
         background-color: white;
-    }  
+    }
 }
-@media screen and (max-width:700px){
+
+@media screen and (max-width:700px) {
     .banner .swiper .swiper-wrapper .swiper-slide .popup {
         position: static;
         padding: 24px;
         width: 100%;
     }
-    
+
     .banner .swiper .swiper-wrapper .swiper-slide .popup .pop-btn {
         display: inline-block;
         background-color: black;
@@ -225,12 +247,12 @@
         font-weight: 600;
         padding: 8px;
     }
-    
+
     .banner .swiper .swiper-wrapper .swiper-slide .popup .pop-btn:hover {
         background-color: #39393a;
         cursor: pointer;
     }
-    
+
     .banner .swiper .swiper-button-prev,
     .banner .swiper .swiper-button-next {
         display: none;
