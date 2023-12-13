@@ -41,341 +41,275 @@
         <h1 class="main-title">
             Development Courses
         </h1>
+        <!-- Courses to get you started -->
         <div class="courses-to-get-started-container">
             <h2 class="heading-courses-to-get-started-container">
                 Courses to get you started
             </h2>
-    
+
             <div class="modules-list">
                 <ul>
-                    <li>
-                        <a id="most_popular" onclick="showMostPopular()">Most Popular</a>
+                    <li id="most_popular" onclick="showMostPopular()">
+                        <a>Most Popular</a>
                     </li>
-                    <li>
-                        <a id="new" onclick="showNew()">New</a>
+                    <li id="new" onclick="showNew()">
+                        <a>New</a>
                     </li>
-                    <li>
-                        <a id="trending" onclick="showTrending()">Trending</a>
+                    <li id="trending" onclick="showTrending()">
+                        <a>Trending</a>
                     </li>
                 </ul>
             </div>
-    
+
             <div class="modules-container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="images/python_1.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">The Complete Python Bootcamp From Zero to Hero in Python
-                                </h5>
-                                <p class="card-text">
-                                    <span class="instructor">Dr.Author 1</span>
-                                    <span class="rating"><b>4.6 out of 5</b> <span id="num-reviews">(487608)</span>
-                                    </span>
-                                    <span class="current-price"><b>&#8377;3,199</b></span>
-                                    <span class="type">best seller</span>
-                                </p>
+                <!-- for most popular -->
+                <div id="most_popular_container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Javascript for Beginners</span>
+                                    <span class="course-instructor">Framework Tech</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(2562)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge">Best seller</span>
+                                </div>
                             </div>
-                            <div class="main-model-1">
-                                <h5>The Complete Python Bootcamp From Zero to Hero in Python</h5>
-                                <div class="type-last-updated">
-                                    <span class="type">best seller</span>
-                                    <span class="last-updated">Updated <b>November 23</b></span>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Become a Certified Web Developer: HTML, CSS and
+                                        JavaScript</span>
+                                    <span class="course-instructor">Framework Tech, Mark Lassoff</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(3,540)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <div class="duration-level-subtitle">
-                                    <span class="duration">50 total hours</span>
-                                    <span class="dot">.</span>
-                                    <span class="level">All levels</span>
-                                    <span class="dot">.</span>
-                                    <span class="subtitle">subtitles</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Learn C# Programming (In Ten Easy Steps)</span>
+                                    <span class="course-instructor">Huw Collingbourne</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(1,629)</span>
+                                    <span class="price"><b>&#8377;3,699</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript,
-                                    Node, React,
-                                    PostgreSQL, Web3 and DApps</p>
-                                <div class="features">
-                                    <ul>
-                                        <li>Build 16 web development projects for your portfolio, ready to apply for
-                                            junior
-                                            developer jobs.
-                                        </li>
-                                        <li>Learn the latest technologies, including Javascript, React, Node and
-                                            even Web3
-                                            development.
-                                        </li>
-                                        <li>After the course you will be able to build ANY website you want.</li>
-                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">AJAX Development</span>
+                                    <span class="course-instructor">Framework Tech, Mark Lassoff</span>
+                                    <span class="rating"><b>4.6 out of 5</b>(976)</span>
+                                    <span class="price"><b>&#8377;2,699</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <div class="add-heart">
-                                    <div class="add"><span>Add to cart</span></div>
-                                    <div class="heart">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-heart" viewBox="0 0 16 16">
-                                            <path
-                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                                        </svg>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Java Swing (GUI) Programming: From Beginner to
+                                        Expert</span>
+                                    <span class="course-instructor">John Purcell</span>
+                                    <span class="rating"><b>4.6 out of 5</b>(2678)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge">Best seller</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="images/python_2.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Automate the Boring Stuff with Python Programming
-                                </h5>
-                                <p class="card-text">
-                                    <span class="instructor">Dr.Author 1</span>
-                                    <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
-                                    </span>
-                                    <span class="current-price"><b>&#8377;3,199</b></span>
-                                    <span class="type">best seller</span>
-                                </p>
+                </div>
+
+
+                <!-- for new -->
+                <div id="new_container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="new_1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Go - The Complete Guide</span>
+                                    <span class="course-instructor">Maximilian Schwarzmüller</span>
+                                    <span class="rating"><b>4.8 out of 5</b>(70)</span>
+                                    <span class="price"><b>&#8377;1,999</b></span>
+                                    <span class="course-badge">Highest rated</span>
+                                </div>
                             </div>
-                            <div class="main-model-1">
-                                <h5>Automate the Boring Stuff with Python Programming</h5>
-                                <div class="type-last-updated">
-                                    <span class="type">best seller</span>
-                                    <span class="last-updated">Updated <b>November 23</b></span>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="new_2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">JavaScript Pro: Mastering Advanced Concepts and
+                                        Techniques</span>
+                                    <span class="course-instructor">Colt Steele</span>
+                                    <span class="rating"><b>4.8 out of 5</b>(61)</span>
+                                    <span class="price"><b>&#8377;1,999</b></span>
+                                    <span class="course-badge">Hot & new</span>
                                 </div>
-                                <div class="duration-level-subtitle">
-                                    <span class="duration">50 total hours</span>
-                                    <span class="dot">.</span>
-                                    <span class="level">All levels</span>
-                                    <span class="dot">.</span>
-                                    <span class="subtitle">subtitles</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="new_3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">PHP From Scratch 2024 | Beginner To Advanced</span>
+                                    <span class="course-instructor">Brad Traversy</span>
+                                    <span class="rating"><b>4.9 out of 5</b>(47)</span>
+                                    <span class="price"><b>&#8377;1,999</b></span>
+                                    <span class="course-badge">Highest rated</span>
                                 </div>
-                                <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript,
-                                    Node, React,
-                                    PostgreSQL, Web3 and DApps</p>
-                                <div class="features">
-                                    <ul>
-                                        <li>Build 16 web development projects for your portfolio, ready to apply for
-                                            junior
-                                            developer jobs.
-                                        </li>
-                                        <li>Learn the latest technologies, including Javascript, React, Node and
-                                            even Web3
-                                            development.
-                                        </li>
-                                        <li>After the course you will be able to build ANY website you want.</li>
-                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="new_4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">ArcGIS Pro Definition Query Masterclass with ArcPy &amp;
+                                        Python</span>
+                                    <span class="course-instructor">Glen Bambrick</span>
+                                    <span class="rating"><b>5 out of 5</b>(9)</span>
+                                    <span class="price"><b>&#8377;1,999</b></span>
+                                    <span class="course-badge">Hot & new</span>
                                 </div>
-                                <div class="add-heart">
-                                    <div class="add"><span>Add to cart</span></div>
-                                    <div class="heart">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-heart" viewBox="0 0 16 16">
-                                            <path
-                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                                        </svg>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="new_5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">LLM Fine Tuning on OpenAI</span>
+                                    <span class="course-instructor">Jose Portilla</span>
+                                    <span class="rating"><b>4.8 out of 5</b>(38)</span>
+                                    <span class="price"><b>&#8377;1,999</b></span>
+                                    <span class="course-badge">Hot & new</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-    
-                        <div class="card">
-                            <img class="card-img-top" src="images/python_3.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Automate the Boring Stuff with Python Programming
-                                </h5>
-                                <p class="card-text">
-                                    <span class="instructor">Dr.Author 1</span>
-                                    <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
-                                    </span>
-                                    <span class="current-price"><b>&#8377;3,199</b></span>
-                                    <span class="type">best seller</span>
-                                </p>
+                </div>
+
+
+                <!-- for trending -->
+                <div id="trending_container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Javascript for Beginners</span>
+                                    <span class="course-instructor">Framework Tech</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(2562)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge">Best seller</span>
+                                </div>
                             </div>
-                            <div class="main-model-1">
-                                <h5>Automate the Boring Stuff with Python Programming</h5>
-                                <div class="type-last-updated">
-                                    <span class="type">best seller</span>
-                                    <span class="last-updated">Updated <b>November 23</b></span>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Become a Certified Web Developer: HTML, CSS and
+                                        JavaScript</span>
+                                    <span class="course-instructor">Framework Tech, Mark Lassoff</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(3,540)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <div class="duration-level-subtitle">
-                                    <span class="duration">50 total hours</span>
-                                    <span class="dot">.</span>
-                                    <span class="level">All levels</span>
-                                    <span class="dot">.</span>
-                                    <span class="subtitle">subtitles</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Learn C# Programming (In Ten Easy Steps)</span>
+                                    <span class="course-instructor">Huw Collingbourne</span>
+                                    <span class="rating"><b>4.5 out of 5</b>(1,629)</span>
+                                    <span class="price"><b>&#8377;3,699</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript,
-                                    Node, React,
-                                    PostgreSQL, Web3 and DApps</p>
-                                <div class="features">
-                                    <ul>
-                                        <li>Build 16 web development projects for your portfolio, ready to apply for
-                                            junior
-                                            developer jobs.
-                                        </li>
-                                        <li>Learn the latest technologies, including Javascript, React, Node and
-                                            even Web3
-                                            development.
-                                        </li>
-                                        <li>After the course you will be able to build ANY website you want.</li>
-                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">AJAX Development</span>
+                                    <span class="course-instructor">Framework Tech, Mark Lassoff</span>
+                                    <span class="rating"><b>4.6 out of 5</b>(976)</span>
+                                    <span class="price"><b>&#8377;2,699</b></span>
+                                    <span class="course-badge"></span>
                                 </div>
-                                <div class="add-heart">
-                                    <div class="add"><span>Add to cart</span></div>
-                                    <div class="heart">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-heart" viewBox="0 0 16 16">
-                                            <path
-                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                                        </svg>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="mp_5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="course-title">Java Swing (GUI) Programming: From Beginner to
+                                        Expert</span>
+                                    <span class="course-instructor">John Purcell</span>
+                                    <span class="rating"><b>4.6 out of 5</b>(2678)</span>
+                                    <span class="price"><b>&#8377;3,199</b></span>
+                                    <span class="course-badge">Best seller</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="images/python_4.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus
-                                    [2023]
-                                </h5>
-                                <p class="card-text">
-                                    <span class="instructor">Dr.Author 1</span>
-                                    <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
-                                    </span>
-                                    <span class="current-price"><b>&#8377;3,199</b></span>
-                                    <span class="type">best seller</span>
-                                </p>
-                            </div>
-                            <!-- <div class="main-model-2">
-                <h5>Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus [2023]</h5>
-                <div class="type-last-updated">
-                    <span class="type">best seller</span>
-                    <span class="last-updated">Updated <b>November 23</b></span>
                 </div>
-                <div class="duration-level-subtitle">
-                    <span class="duration">50 total hours</span>
-                    <span class="dot">.</span>
-                    <span class="level">All levels</span>
-                    <span class="dot">.</span>
-                    <span class="subtitle">subtitles</span>
-                </div>
-                <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React,
-                    PostgreSQL, Web3 and DApps</p>
-                <div class="features">
-                    <ul>
-                        <li>Build 16 web development projects for your portfolio, ready to apply for junior
-                            developer jobs.
-                        </li>
-                        <li>Learn the latest technologies, including Javascript, React, Node and even Web3
-                            development.
-                        </li>
-                        <li>After the course you will be able to build ANY website you want.</li>
-                    </ul>
-                </div>
-                <div class="add-heart">
-                    <div class="add"><span>Add to cart</span></div>
-                    <div class="heart">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-heart" viewBox="0 0 16 16">
-                            <path
-                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                        </svg>
-                    </div>
-                </div>
-            </div> -->
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="images/python_5.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Python for Data Science and Machine Learning Bootcamp
-                                </h5>
-                                <p class="card-text">
-                                    <span class="instructor">Dr.Author 1</span>
-                                    <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
-                                    </span>
-                                    <span class="current-price"><b>&#8377;3,199</b></span>
-                                    <span class="type">best seller</span>
-                                </p>
-                            </div>
-                            <!-- <div class="main-model-2">
-                <h5>Python for Data Science and Machine Learning Bootcamp</h5>
-                <div class="type-last-updated">
-                    <span class="type">best seller</span>
-                    <span class="last-updated">Updated <b>November 23</b></span>
-                </div>
-                <div class="duration-level-subtitle">
-                    <span class="duration">50 total hours</span>
-                    <span class="dot">.</span>
-                    <span class="level">All levels</span>
-                    <span class="dot">.</span>
-                    <span class="subtitle">subtitles</span>
-                </div>
-                <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React,
-                    PostgreSQL, Web3 and DApps</p>
-                <div class="features">
-                    <ul>
-                        <li>Build 16 web development projects for your portfolio, ready to apply for junior
-                            developer jobs.
-                        </li>
-                        <li>Learn the latest technologies, including Javascript, React, Node and even Web3
-                            development.
-                        </li>
-                        <li>After the course you will be able to build ANY website you want.</li>
-                    </ul>
-                </div>
-                <div class="add-heart">
-                    <div class="add"><span>Add to cart</span></div>
-                    <div class="heart">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-heart" viewBox="0 0 16 16">
-                            <path
-                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                        </svg>
-                    </div>
-                </div>
-            </div> -->
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
 
-
+        <!-- Featured courses -->
         <div class="featured-courses-container">
-          <h2>
-            Featured courses
-          </h2>
-          <div class="banner">
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="images/banner_1.jpg" alt="banner_1" height="400">
-                        <div class="popup">
-                            <h1>Build ready-for-anything teams</h1>
-                            <p>See why leading organizations choose to learn with Udemy Business.</p>
-                            <div class="pop-btn">
-                                <span>Request a demo</span>
+            <h2 class="heading-featured-courses-container">
+                Featured courses
+            </h2>
+            <div class="slider-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="new_1.jpg" alt="new_1" width="100%">
+                                </div>
+                                <div class="col-7">
+                                    <div class="card-body" style="display: flex; flex-direction: column;">
+                                        <h2 class="course-title">Javascript for Beginners</h2>
+                                        <p class="course-description">Learn Go ("Golang") from the ground up &amp; in great depth by building multiple demo projects, incl. a REST API</p>
+                                        <span class="course-instructor">By Framework Tech</span>
+                                        <p>
+                                            <span class="updated-text">Updated</span>
+                                            <span class="updated-date">December 2023</span>
+                                            <span class="course-duration-length">15.5 total hours</span>
+                                            <span class="total-number-of-lectures">197 lectures</span>
+                                            <span class="course-level">All Levels</span>
+                                        </p>
+                                        <p>
+                                            <span class="rating"><b>4.5 out of 5</b>(2562)</span>
+                                            <span class="course-badge">Best seller</span>
+                                        </p>
+                                        <span class="price"><b>&#8377;3,199</b></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="images/banner_2.jpg" alt="banner_2" height="400">
-                        <div class="popup">
-                            <h1>McLaren Racing 101</h1>
-                            <p>Ready to get up to speed on your McLaren Racing knowledge? Take the NEW course for free.
-                            </p>
-                            <div class="pop-btn">
-                                <span>Enroll now</span>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
-        </div>
         </div>
 
         <div class="popular-topics-container">
@@ -391,11 +325,70 @@
         </div>
     </div>
 
-
     <script src="development_script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- Include jQuery before your custom script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Your custom script for equal height -->
+    <script>
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".card-body").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".card-body").height(maxHeight);
+        });
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".course-title").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".course-title").height(maxHeight);
+        });
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".course-instructor").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".course-instructor").height(maxHeight);
+        });
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".rating").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".rating").height(maxHeight);
+        });
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".price").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".price").height(maxHeight);
+        });
+        $(document).ready(function () {
+            // Get the maximum height among all the divs
+            var maxHeight = Math.max.apply(null, $(".course-badge").map(function () {
+                return $(this).height();
+            }).get());
+
+            // Set the maximum height to all divs
+            $(".course-badge").height(maxHeight);
+        });
+    </script>
 </body>
 
 </html>

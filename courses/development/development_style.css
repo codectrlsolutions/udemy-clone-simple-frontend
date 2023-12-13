@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 :root {
     --color-gray-600: #101112;
     --color-gray-550: #1c1d1f;
@@ -62,61 +63,149 @@
     --color-purple-100: #f6eefc;
     --color-white: #fff;
 }
-.sub-nav-bar{
+
+.sub-nav-bar {
     width: 100%;
     padding: 0 24px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     height: 48px;
 }
-.sub-nav-bar ul{
+
+.sub-nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.sub-nav-bar ul li{
+
+.sub-nav-bar ul li {
     display: inline-block;
     padding: 12px;
 }
-.sub-nav-bar ul li a{
+
+.sub-nav-bar ul li a {
     text-decoration: none;
     color: black;
 }
-.sub-nav-bar ul li a:hover{
-color: #371783;
+
+.sub-nav-bar ul li a:hover {
+    color: #371783;
 }
 
-.main-container{
+.main-container {
     width: 100%;
     padding: 0 24px;
 }
-.main-container .main-title{
+
+.main-container .main-title {
     margin: 36px 0 24px 0;
 }
-.main-container .courses-to-get-started-container{
+
+/* Courses to get you started */
+.main-container .courses-to-get-started-container {
     width: 100%;
+    margin-bottom: 36px;
 }
-.main-container .courses-to-get-started-container .heading-courses-to-get-started-container{
+
+.main-container .courses-to-get-started-container .heading-courses-to-get-started-container {
     margin: 0 0 24px 0;
 }
-.main-container .courses-to-get-started-container .modules-list{
+
+.main-container .courses-to-get-started-container .modules-list {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width: 100%;
     margin: 0 0 12px 0;
 }
-.main-container .courses-to-get-started-container .modules-list ul{
+
+.main-container .courses-to-get-started-container .modules-list ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: start;
 }
-.main-container .courses-to-get-started-container .modules-list ul li{
+
+.main-container .courses-to-get-started-container .modules-list ul li {
     padding-bottom: 16px;
     margin-right: 24px;
 }
-.main-container .courses-to-get-started-container .modules-list ul li a{
+
+.main-container .courses-to-get-started-container .modules-list ul li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
+}
+.main-container .courses-to-get-started-container .modules-list ul li:hover{
+    cursor: pointer;
+}
+
+.main-container .courses-to-get-started-container .modules-container .row .card {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.main-container .courses-to-get-started-container .modules-container .row .card .card-img-top{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.main-container .courses-to-get-started-container .modules-container .row .card:hover{
+    cursor: pointer;
+}
+.main-container .courses-to-get-started-container .modules-container .row .card:hover .card-img-top{
+    opacity: 0.8;
+}
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0; 
+}
+
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 700;
+     /* Horizontal centering */
+     /* -webkit-box-pack: center; */
+     /* Vertical centering */
+     /* -webkit-box-align: center; */
+}
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-instructor,
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .rating,
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-badge{
+    font-size: 14px;
+}
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-instructor,
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .rating,
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .price,
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-badge {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.main-container .courses-to-get-started-container .modules-container .row .card .card-body .course-badge{
+    padding: 2px 6px;
+    width: fit-content;
+    font-weight: 700;
+}
+
+
+
+
+
+/* Featured courses */
+.main-container .featured-courses-container{
+width: 100%;
+}
+.main-container .featured-courses-container .heading-featured-courses-container{
+    margin-bottom: 12px;
+}
+.main-container .featured-courses-container .slider-container{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 24px;
 }
