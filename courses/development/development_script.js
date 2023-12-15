@@ -1,4 +1,9 @@
+let rating_count = 0;
+let video_duration = 0;
+
 showMostPopular();
+showHideRating();
+showHideVideoDuration();
 
 // showMostPopular() 
 function showMostPopular() {
@@ -85,3 +90,36 @@ badge_text.forEach(paragraph => {
     },
 
   });
+
+  // showHideRating()
+
+  function showHideRating(){
+    if(rating_count == 0){
+      document.getElementById('rating-up').style.display = "none";
+      document.getElementById('rating-down').style.display = "block";
+      document.getElementById('rating-toggle-container').style.display = "none";
+      rating_count = 1;
+    }
+    else{
+      document.getElementById('rating-up').style.display = "block";
+      document.getElementById('rating-down').style.display = "none";
+      document.getElementById('rating-toggle-container').style.display = "block";
+      rating_count = 0;
+    }
+  }
+
+  // showHideVideoDuration
+  function showHideVideoDuration(){
+    if(video_duration == 0){
+      document.getElementById('video-duration-up').style.display = "none";
+      document.getElementById('video-duration-down').style.display = "block";
+      document.getElementById('video-duration-toggle-container').style.display = "none";
+      video_duration = 1;
+    }
+    else{
+      document.getElementById('video-duration-up').style.display = "block";
+      document.getElementById('video-duration-down').style.display = "none";
+      document.getElementById('video-duration-toggle-container').style.display = "block";
+      video_duration = 0;
+    }
+  }
