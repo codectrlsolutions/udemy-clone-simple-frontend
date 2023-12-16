@@ -3,6 +3,11 @@ let video_duration_count = 0;
 let topic_count = 0;
 let sub_category_count = 0;
 let level_count = 0;
+let language_count = 0;
+let price_count = 0;
+let features_count = 0;
+let subtitles_count = 0;
+
 
 showMostPopular();
 showHideRatings();
@@ -10,6 +15,10 @@ showHideVideoDuration();
 showHideTopic();
 showHideSubcategory();
 showHideLevel();
+showHideLanguage();
+showHidePrice();
+showHideFeatures();
+showHideSubtitles();
 
 // showMostPopular() 
 function showMostPopular() {
@@ -177,3 +186,64 @@ badge_text.forEach(paragraph => {
         level_count = 0;
       }
     }
+
+            // showHideLanguage()
+            function showHideLanguage(){
+              if(language_count == 0){
+                document.getElementById('language-up').style.display = "none";
+                document.getElementById('language-down').style.display = "block";
+                document.getElementById('language-toggle-container').style.display = "none";
+                language_count = 1;
+              }
+              else{
+                document.getElementById('language-up').style.display = "block";
+                document.getElementById('language-down').style.display = "none";
+                document.getElementById('language-toggle-container').style.display = "block";
+                language_count = 0;
+              }
+            }
+            // showHidePrice()
+            function showHidePrice(){
+              if(price_count == 0){
+                document.getElementById('price-up').style.display = "none";
+                document.getElementById('price-down').style.display = "block";
+                document.getElementById('price-toggle-container').style.display = "none";
+                price_count = 1;
+              }
+              else{
+                document.getElementById('price-up').style.display = "block";
+                document.getElementById('price-down').style.display = "none";
+                document.getElementById('price-toggle-container').style.display = "block";
+                price_count = 0;
+              }
+            }
+            // showHideFeatures()
+            function showHideFeatures(){
+              if(features_count == 0){
+                document.getElementById('features-up').style.display = "none";
+                document.getElementById('features-down').style.display = "block";
+                document.getElementById('features-toggle-container').style.display = "none";
+                features_count = 1;
+              }
+              else{
+                document.getElementById('features-up').style.display = "block";
+                document.getElementById('features-down').style.display = "none";
+                document.getElementById('features-toggle-container').style.display = "block";
+                features_count = 0;
+              }
+            }
+            // showHideSubtitles()
+            function showHideSubtitles(){
+              if(subtitles_count == 0){
+                document.getElementById('subtitles-up').style.display = "none";
+                document.getElementById('subtitles-down').style.display = "block";
+                document.getElementById('subtitles-toggle-container').style.display = "none";
+                subtitles_count = 1;
+              }
+              else{
+                document.getElementById('subtitles-up').style.display = "block";
+                document.getElementById('subtitles-down').style.display = "none";
+                document.getElementById('subtitles-toggle-container').style.display = "block";
+                subtitles_count = 0;
+              }
+            }

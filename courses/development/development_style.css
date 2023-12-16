@@ -460,7 +460,11 @@ width: 100%;
 .all-development-courses-container .filter-courses-container .row .video-duration-filtered-container,
 .all-development-courses-container .filter-courses-container .row .topic-filtered-container,
 .all-development-courses-container .filter-courses-container .row .sub-category-filtered-container,
-.all-development-courses-container .filter-courses-container .row .level-filtered-container{
+.all-development-courses-container .filter-courses-container .row .level-filtered-container,
+.all-development-courses-container .filter-courses-container .row .language-filtered-container,
+.all-development-courses-container .filter-courses-container .row .price-filtered-container,
+.all-development-courses-container .filter-courses-container .row .features-filtered-container,
+.all-development-courses-container .filter-courses-container .row .subtitles-filtered-container{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -468,7 +472,11 @@ width: 100%;
 .all-development-courses-container .filter-courses-container .row .video-duration-filtered-container .single-option-filter-container,
 .all-development-courses-container .filter-courses-container .row .topic-filtered-container .single-option-filter-container,
 .all-development-courses-container .filter-courses-container .row .sub-category-filtered-container .single-option-filter-container,
-.all-development-courses-container .filter-courses-container .row .level-filtered-container .single-option-filter-container{
+.all-development-courses-container .filter-courses-container .row .level-filtered-container .single-option-filter-container,
+.all-development-courses-container .filter-courses-container .row .language-filtered-container .single-option-filter-container,
+.all-development-courses-container .filter-courses-container .row .price-filtered-container .single-option-filter-container,
+.all-development-courses-container .filter-courses-container .row .features-filtered-container .single-option-filter-container,
+.all-development-courses-container .filter-courses-container .row .subtitles-filtered-container .single-option-filter-container{
     padding: 12px;
     display: flex;
     flex-direction: row;
@@ -478,7 +486,11 @@ width: 100%;
 .all-development-courses-container .filter-courses-container .row .video-duration-filtered-container .single-option-filter-container .bold-text,
 .all-development-courses-container .filter-courses-container .row .topic-filtered-container .single-option-filter-container .bold-text,
 .all-development-courses-container .filter-courses-container .row .sub-category-filtered-container .single-option-filter-container .bold-text,
-.all-development-courses-container .filter-courses-container .row .level-filtered-container .single-option-filter-container .bold-text{
+.all-development-courses-container .filter-courses-container .row .level-filtered-container .single-option-filter-container .bold-text,
+.all-development-courses-container .filter-courses-container .row .language-filtered-container .single-option-filter-container .bold-text,
+.all-development-courses-container .filter-courses-container .row .price-filtered-container .single-option-filter-container .bold-text,
+.all-development-courses-container .filter-courses-container .row .features-filtered-container .single-option-filter-container .bold-text,
+.all-development-courses-container .filter-courses-container .row .subtitles-filtered-container .single-option-filter-container .bold-text{
     font-weight: 700;
     font-size: 20px;
 }
@@ -486,7 +498,11 @@ width: 100%;
 .all-development-courses-container .filter-courses-container .row .video-duration-filtered-container .checkbox-container,
 .all-development-courses-container .filter-courses-container .row .topic-filtered-container .checkbox-container,
 .all-development-courses-container .filter-courses-container .row .sub-category-filtered-container .checkbox-container,
-.all-development-courses-container .filter-courses-container .row .level-filtered-container .checkbox-container{
+.all-development-courses-container .filter-courses-container .row .level-filtered-container .checkbox-container,
+.all-development-courses-container .filter-courses-container .row .language-filtered-container .checkbox-container,
+.all-development-courses-container .filter-courses-container .row .price-filtered-container .checkbox-container,
+.all-development-courses-container .filter-courses-container .row .features-filtered-container .checkbox-container,
+.all-development-courses-container .filter-courses-container .row .subtitles-filtered-container .checkbox-container{
     display: flex;
     flex-direction: column;
     padding: 12px;
