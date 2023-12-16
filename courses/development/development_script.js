@@ -1,9 +1,15 @@
 let rating_count = 0;
-let video_duration = 0;
+let video_duration_count = 0;
+let topic_count = 0;
+let sub_category_count = 0;
+let level_count = 0;
 
 showMostPopular();
-showHideRating();
+showHideRatings();
 showHideVideoDuration();
+showHideTopic();
+showHideSubcategory();
+showHideLevel();
 
 // showMostPopular() 
 function showMostPopular() {
@@ -93,33 +99,81 @@ badge_text.forEach(paragraph => {
 
   // showHideRating()
 
-  function showHideRating(){
+  function showHideRatings(){
     if(rating_count == 0){
-      document.getElementById('rating-up').style.display = "none";
-      document.getElementById('rating-down').style.display = "block";
-      document.getElementById('rating-toggle-container').style.display = "none";
+      document.getElementById('ratings-up').style.display = "none";
+      document.getElementById('ratings-down').style.display = "block";
+      document.getElementById('ratings-toggle-container').style.display = "none";
       rating_count = 1;
     }
     else{
-      document.getElementById('rating-up').style.display = "block";
-      document.getElementById('rating-down').style.display = "none";
-      document.getElementById('rating-toggle-container').style.display = "block";
+      document.getElementById('ratings-up').style.display = "block";
+      document.getElementById('ratings-down').style.display = "none";
+      document.getElementById('ratings-toggle-container').style.display = "block";
       rating_count = 0;
     }
   }
 
   // showHideVideoDuration
   function showHideVideoDuration(){
-    if(video_duration == 0){
+    if(video_duration_count == 0){
       document.getElementById('video-duration-up').style.display = "none";
       document.getElementById('video-duration-down').style.display = "block";
       document.getElementById('video-duration-toggle-container').style.display = "none";
-      video_duration = 1;
+      video_duration_count = 1;
     }
     else{
       document.getElementById('video-duration-up').style.display = "block";
       document.getElementById('video-duration-down').style.display = "none";
       document.getElementById('video-duration-toggle-container').style.display = "block";
-      video_duration = 0;
+      video_duration_count = 0;
     }
   }
+
+  // showHideTopic
+  function showHideTopic(){
+    if(topic_count == 0){
+      document.getElementById('topic-up').style.display = "none";
+      document.getElementById('topic-down').style.display = "block";
+      document.getElementById('topic-toggle-container').style.display = "none";
+      topic_count = 1;
+    }
+    else{
+      document.getElementById('topic-up').style.display = "block";
+      document.getElementById('topic-down').style.display = "none";
+      document.getElementById('topic-toggle-container').style.display = "block";
+      topic_count = 0;
+    }
+  }
+
+  // showHideSubcategory()
+  function showHideSubcategory(){
+    if(sub_category_count == 0){
+      document.getElementById('sub-category-up').style.display = "none";
+      document.getElementById('sub-category-down').style.display = "block";
+      document.getElementById('sub-category-toggle-container').style.display = "none";
+      sub_category_count = 1;
+    }
+    else{
+      document.getElementById('sub-category-up').style.display = "block";
+      document.getElementById('sub-category-down').style.display = "none";
+      document.getElementById('sub-category-toggle-container').style.display = "block";
+      sub_category_count = 0;
+    }
+  }
+
+    // showHideLevel()
+    function showHideLevel(){
+      if(level_count == 0){
+        document.getElementById('level-up').style.display = "none";
+        document.getElementById('level-down').style.display = "block";
+        document.getElementById('level-toggle-container').style.display = "none";
+        level_count = 1;
+      }
+      else{
+        document.getElementById('level-up').style.display = "block";
+        document.getElementById('level-down').style.display = "none";
+        document.getElementById('level-toggle-container').style.display = "block";
+        level_count = 0;
+      }
+    }
