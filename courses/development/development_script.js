@@ -127,14 +127,14 @@ function showHideRatings() {
 function showHideVideoDuration() {
   if (video_duration_count == 0) {
     document.getElementById('video-duration-up').style.display = "none";
-    document.getElementById('video-duration-down').style.display = "block";
+    document.getElementById('video-duration-down').style.display = "flex";
     document.getElementById('video-duration-toggle-container').style.display = "none";
     video_duration_count = 1;
   }
   else {
-    document.getElementById('video-duration-up').style.display = "block";
+    document.getElementById('video-duration-up').style.display = "flex";
     document.getElementById('video-duration-down').style.display = "none";
-    document.getElementById('video-duration-toggle-container').style.display = "block";
+    document.getElementById('video-duration-toggle-container').style.display = "flex";
     video_duration_count = 0;
   }
 }
@@ -143,14 +143,14 @@ function showHideVideoDuration() {
 function showHideTopic() {
   if (topic_count == 0) {
     document.getElementById('topic-up').style.display = "none";
-    document.getElementById('topic-down').style.display = "block";
+    document.getElementById('topic-down').style.display = "flex";
     document.getElementById('topic-toggle-container').style.display = "none";
     topic_count = 1;
   }
   else {
-    document.getElementById('topic-up').style.display = "block";
+    document.getElementById('topic-up').style.display = "flex";
     document.getElementById('topic-down').style.display = "none";
-    document.getElementById('topic-toggle-container').style.display = "block";
+    document.getElementById('topic-toggle-container').style.display = "flex";
     topic_count = 0;
   }
 }
@@ -159,14 +159,14 @@ function showHideTopic() {
 function showHideSubcategory() {
   if (sub_category_count == 0) {
     document.getElementById('sub-category-up').style.display = "none";
-    document.getElementById('sub-category-down').style.display = "block";
+    document.getElementById('sub-category-down').style.display = "flex";
     document.getElementById('sub-category-toggle-container').style.display = "none";
     sub_category_count = 1;
   }
   else {
-    document.getElementById('sub-category-up').style.display = "block";
+    document.getElementById('sub-category-up').style.display = "flex";
     document.getElementById('sub-category-down').style.display = "none";
-    document.getElementById('sub-category-toggle-container').style.display = "block";
+    document.getElementById('sub-category-toggle-container').style.display = "flex";
     sub_category_count = 0;
   }
 }
@@ -175,14 +175,14 @@ function showHideSubcategory() {
 function showHideLevel() {
   if (level_count == 0) {
     document.getElementById('level-up').style.display = "none";
-    document.getElementById('level-down').style.display = "block";
+    document.getElementById('level-down').style.display = "flex";
     document.getElementById('level-toggle-container').style.display = "none";
     level_count = 1;
   }
   else {
-    document.getElementById('level-up').style.display = "block";
+    document.getElementById('level-up').style.display = "flex";
     document.getElementById('level-down').style.display = "none";
-    document.getElementById('level-toggle-container').style.display = "block";
+    document.getElementById('level-toggle-container').style.display = "flex";
     level_count = 0;
   }
 }
@@ -191,14 +191,14 @@ function showHideLevel() {
 function showHideLanguage() {
   if (language_count == 0) {
     document.getElementById('language-up').style.display = "none";
-    document.getElementById('language-down').style.display = "block";
+    document.getElementById('language-down').style.display = "flex";
     document.getElementById('language-toggle-container').style.display = "none";
     language_count = 1;
   }
   else {
-    document.getElementById('language-up').style.display = "block";
+    document.getElementById('language-up').style.display = "flex";
     document.getElementById('language-down').style.display = "none";
-    document.getElementById('language-toggle-container').style.display = "block";
+    document.getElementById('language-toggle-container').style.display = "flex";
     language_count = 0;
   }
 }
@@ -206,14 +206,14 @@ function showHideLanguage() {
 function showHidePrice() {
   if (price_count == 0) {
     document.getElementById('price-up').style.display = "none";
-    document.getElementById('price-down').style.display = "block";
+    document.getElementById('price-down').style.display = "flex";
     document.getElementById('price-toggle-container').style.display = "none";
     price_count = 1;
   }
   else {
-    document.getElementById('price-up').style.display = "block";
+    document.getElementById('price-up').style.display = "flex";
     document.getElementById('price-down').style.display = "none";
-    document.getElementById('price-toggle-container').style.display = "block";
+    document.getElementById('price-toggle-container').style.display = "flex";
     price_count = 0;
   }
 }
@@ -221,14 +221,14 @@ function showHidePrice() {
 function showHideFeatures() {
   if (features_count == 0) {
     document.getElementById('features-up').style.display = "none";
-    document.getElementById('features-down').style.display = "block";
+    document.getElementById('features-down').style.display = "flex";
     document.getElementById('features-toggle-container').style.display = "none";
     features_count = 1;
   }
   else {
-    document.getElementById('features-up').style.display = "block";
+    document.getElementById('features-up').style.display = "flex";
     document.getElementById('features-down').style.display = "none";
-    document.getElementById('features-toggle-container').style.display = "block";
+    document.getElementById('features-toggle-container').style.display = "flex";
     features_count = 0;
   }
 }
@@ -236,14 +236,14 @@ function showHideFeatures() {
 function showHideSubtitles() {
   if (subtitles_count == 0) {
     document.getElementById('subtitles-up').style.display = "none";
-    document.getElementById('subtitles-down').style.display = "block";
+    document.getElementById('subtitles-down').style.display = "flex";
     document.getElementById('subtitles-toggle-container').style.display = "none";
     subtitles_count = 1;
   }
   else {
-    document.getElementById('subtitles-up').style.display = "block";
+    document.getElementById('subtitles-up').style.display = "flex";
     document.getElementById('subtitles-down').style.display = "none";
-    document.getElementById('subtitles-toggle-container').style.display = "block";
+    document.getElementById('subtitles-toggle-container').style.display = "flex";
     subtitles_count = 0;
   }
 }

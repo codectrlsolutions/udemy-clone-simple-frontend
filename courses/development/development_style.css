@@ -539,6 +539,26 @@
     flex-direction: column;
     padding: 12px;
 }
+.all-development-courses-container .filter-courses-container .course-section .row{
+    margin: 0;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.all-development-courses-container .filter-courses-container .course-section .row .image-section img{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.all-development-courses-container .filter-courses-container .course-section .row .body-section .card-body p,
+.all-development-courses-container .filter-courses-container .course-section .row .body-section .card-body h5
+{
+margin: 0;
+padding: 0;
+}
+
+.all-development-courses-container .filter-courses-container .course-section .row .body-section .card-body h5,
+.all-development-courses-container .filter-courses-container .course-section .row .body-section .card-body .course-instructor{
+    height: fit-content !important;
+}
 
 /* .all-development-courses-container .filter-courses-container [class*="col-"]{ */
 /* border: 1px solid black; */
