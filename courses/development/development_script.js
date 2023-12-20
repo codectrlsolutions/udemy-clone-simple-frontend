@@ -20,6 +20,44 @@ showHidePrice();
 showHideFeatures();
 showHideSubtitles();
 
+// most_popular_function()
+most_popular_function()
+
+// const course_arr = [
+//   {
+//     course_image: 'images/c_13.jpg',
+//     course_title: 'Javascript for Beginners',
+//     course_instructor: 'Framework Tech',
+//     course_rating: 4.5,
+//     course_price: 3199,
+//     course_discount_price: 499,
+//     course_badge: 'Best seller'
+//   },
+//   {
+//     course_image: 'images/c_13.jpg',
+//     course_title: 'Javascript for Beginners',
+//     course_instructor: 'Framework Tech',
+//     course_rating: 4.5,
+//     course_price: 3199,
+//     course_discount_price: 499,
+//     course_badge: 'Best seller'
+//   },
+//   {
+//     course_image: 'images/c_13.jpg',
+//     course_title: 'Javascript for Beginners',
+//     course_instructor: 'Framework Tech',
+//     course_rating: 4.5,
+//     course_price: 3199,
+//     course_discount_price: 499,
+//     course_badge: 'Best seller'
+//   }
+// ];
+
+// function most_popular_function(){
+// for(let i=0; i<=course_arr.length;i++){
+  
+// }
+// }
 // showMostPopular() 
 function showMostPopular() {
   document.getElementById('most_popular_container').style.display = "block";
@@ -65,8 +103,8 @@ function showTrending() {
   document.getElementById('trending').style.borderBottom = "2px solid black";
 }
 
-const badge_text = document.querySelectorAll('.course-badge');
 
+const badge_text = document.querySelectorAll('.course-badge');
 // Step 2: Iterate through the selected paragraphs
 badge_text.forEach(paragraph => {
   // Step 3: assigning each paragraph's text content
@@ -80,31 +118,35 @@ badge_text.forEach(paragraph => {
   } else if (current_text == 'Hot & new') {
     paragraph.style.backgroundColor = '#fcbca0';
   }
-  else if (current_text == 'Hot & new') {
-    paragraph.style.backgroundColor = '#fcbca0';
-  }
+  // else if (current_text == 'Hot & new') {
+  //   paragraph.style.backgroundColor = '#fcbca0';
+  // }
   else {
     paragraph.style.display = 'none';
   }
 });
 
-const swiper = new Swiper('.swiper',
-  {
-    // Optional parameters
-    // direction: 'vertical',
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    loop: true,
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
 
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-  });
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 
 // showHideRating()
 
