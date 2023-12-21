@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Business</title>
+    <link rel="stylesheet" href="udemy_business_style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- bootstrap css cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/udemy-business-logo.svg" alt="udemy-business-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link set-cursor-default" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">What we do</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">By need</a>
+                        <a class="dropdown-item" href="#">By team</a>
+                        <a class="dropdown-item" href="#">By industry</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link set-cursor-default" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">How we do it</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Learning Ecosystem</a>
+                        <a class="dropdown-item" href="#">On-Demand Learning</a>
+                        <a class="dropdown-item" href="#">Immersive Learning</a>
+                        <a class="dropdown-item" href="#">Cohort Learning</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link set-cursor-default" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Resources</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">All Resources</a>
+                        <a class="dropdown-item" href="#">Our Product</a>
+                        <a class="dropdown-item" href="#">Resources by Topic</a>
+                        <a class="dropdown-item" href="#">Podcast: Leading Up</a>
+                        <a class="dropdown-item" href="#">Small Business Hub</a>
+                        <a class="dropdown-item" href="#">Case Studies</a>
+                        <a class="dropdown-item" href="#">Events</a>
+                        <a class="dropdown-item" href="#">Integrations</a>
+                        <a class="dropdown-item" href="#">Partner with Udemy</a>
+                        <a class="dropdown-item" href="#">
+                            Blog
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                                <path fill-rule="evenodd"
+                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link set-cursor-default" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Plans</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Compare Plans</a>
+                        <a class="dropdown-item" href="#">Team (5-20 learners)</a>
+                        <a class="dropdown-item" href="#">Enterprise (21+ learners)</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <select name="country" id="selectCountry" class="nav-link">
+                        <option value="usa">usa</option>
+                        <option value="uk">uk</option>
+                        <option value="india">india</option>
+                        <option value="afrika">afrika</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="right-side">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link set-cursor-default login" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Login</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">On-Demand Learning</a>
+                            <a class="dropdown-item" href="#">Cohort Learning (CorpU)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link get-started" href="#">Get started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <main>
+        <div class="row">
+            <div class="col-6 left-container">
+                <h1>
+                    Get your demo
+                </h1>
+                <p>
+                    Tell us your needs and we&apos;ll start on a custom plan to drive results.
+                </p>
+                <h5>
+                    With Udemy as your learning partner, you can:
+                </h5>
+                <ul class="check-marked-list">
+                    <li>
+                        Train your entire workforce with over 24,000+ courses in 15 languages
+                    </li>
+                    <li>
+                        Prep employees for over 200 industry-recognized certification exams
+                    </li>
+                    <li>
+                        Develop highly skilled tech teams in risk-free practice environments
+                    </li>
+                    <li>
+                        Identify emerging skills gaps, learning trends, and industry benchmarks
+                    </li>
+                    <li>
+                        Integrate content with your existing learning management system
+                    </li>
+                </ul>
+                <div class="trusted-by-container">
+                    <h5>Trusted by</h5>
+                    <ul class="trusted-by-image-container">
+                        <li>
+                            <div>
+                                <img src="images/volkswagen-logo-11-2023.png" alt="volkswagen-logo-11-2023"
+                                    width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/samsung-logo-11-2023.png" alt="samsung-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/cisco-logo-11-2023.png" alt="cisco-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/att-logo-11-2023.png" alt="att-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/pg-logo-11-2023.png" alt="pg-logo-11-2023.png" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/hpe-logo-11-2023.png" alt="hpe-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/citi-logo-11-2023.png" alt="citi-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/ericsson-logo-11-2023.png" alt="ericsson-logo-11-2023" width="100%">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 right-container">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control w-50" id="firstName" aria-describedby="firstNameHelp"
+                            placeholder="First Name *" name="FirstName" maxlength="255">
+
+                        <input type="text" class="form-control w-50" id="lastName" aria-describedby="lastNameHelp"
+                            placeholder="Last Name *" name="LastName" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="workEmail" aria-describedby="workEmailHelp"
+                            placeholder="Work Email *" name="Work Email" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp"
+                            placeholder="Phone Number *" name="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select name="Select Country" class="form-control" id="selectCountry">
+                            <option value>Select country *</option>
+                            <option value="us">United States</option>
+                            <option value="in">India</option>
+                            <option value="br">Brazil</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ge">Germany</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="companyName" aria-describedby="companyNameHelp"
+                            placeholder="Company Name *" name="Company Name" maxlength="255">
+                    </div>
+                    <div class="form-group">
+                        <select name="Select Company Size" class="form-control w-50" id="selectCompanySize">
+                            <option value>Select Company Size *</option>
+                            <option value="I'm a contractor / freelancer">I'm a contractor / freelancer</option>
+                            <option value="1–199">1–199</option>
+                            <option value="200–999">200–999</option>
+                            <option value="1,000–5,000">1,000–5,000</option>
+                            <option value="5,001+">5,001+</option>
+                        </select>
+
+                        <select name="Select Number of people to training" class="form-control w-50"
+                            id="selectNumberOfPeopleToTraining">
+                            <option value>Select Number of people to training *</option>
+                            <option value="Just myself">Just myself</option>
+                            <option value="5 - 20">5 - 20</option>
+                            <option value="21 - 200">21 - 200</option>
+                            <option value="201 - 2,000">201 - 2,000</option>
+                            <option value="2,001+">2,001+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control w-50" id="jobTitle" aria-describedby="jobTitleHelp"
+                            placeholder="Job Title *" name="Job Title *" maxlength="255">
+
+                        <select name="Select Job Level" class="form-control w-50" id="selectJobLevel">
+                            <option value>Select Job Level *</option>
+                            <option value="C-Level">C-Level</option>
+                            <option value="VP">VP</option>
+                            <option value="Director / Sr">Director / Sr</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Individual Contributor">Individual Contributor</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="trainingNeeds" name="Training Needs" rows="2"
+                            placeholder="What are your organization's training needs? (Optional)"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary form-control">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- drop down for when we hover on it -->
+    <script>
+        $(document).ready(function () {
+            $('.dropdown').hover(function () {
+                $(this).addClass('show');
+                $(this).find('.dropdown-menu').addClass('show');
+            }, function () {
+                $(this).removeClass('show');
+                $(this).find('.dropdown-menu').removeClass('show');
+            });
+        }); 
+    </script>
+</body>
+
+</html>
+
+
+<!-- <script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script> -->
