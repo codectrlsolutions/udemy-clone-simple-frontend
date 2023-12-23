@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.popular-and-trending-topics-container{
+    margin: 24px;
+}
+.ptt-list-container{
+    margin: 36px;
+}
+ul.list-header{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+ul.list-header li{
+    margin-right: 24px;
+    padding: 12px 0;
+    font-weight: 700;
+}
+ul.list-header li:hover{
+    cursor: pointer;
+}
+.main-table-container{
+    margin: 24px;
+}
+.topic-list-table{
+    border-collapse: separate;
+    border-spacing: 5px 36px;
+}
