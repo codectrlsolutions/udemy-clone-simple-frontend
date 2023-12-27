@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Courses - Learn anything, On your schedule | Udemy</title>
+
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
             </li>
             <li>
                 <div class="category-container">
-                    <a href="" class="categories-text">Categories</a>
+                    <a class="categories-text">Categories</a>
                     <div class="category-list-section">
                         <ul>
                             <li><a href="/courses/development/development.html">Development</li>
@@ -47,10 +48,11 @@
                 </div>
             </li>
             <li class="li-udemy-bussiness">
-                <a href="/laragon/www/mhg-web-app/udemy-clone-simple-frontend/udemy business/udemy_business.html">Udemy Business</a>
+                <a href="/laragon/www/mhg-web-app/udemy-clone-simple-frontend/udemy business/udemy_business.html">Udemy
+                    Business</a>
             </li>
             <li class="li-teach-on-udemy">
-                <a href="">Teach on Udemy</a>
+                <a>Teach on Udemy</a>
             </li>
             <li>
                 <div class="cart">
@@ -111,7 +113,6 @@
             </li>
         </ul>
     </div>
-
 
     <!-- main section -->
     <main>
@@ -185,49 +186,68 @@
         <!-- A broad selection of courses -->
         <div class="broad-section-of-courses">
             <div class="bsc-main-container">
-                <h1>A broad selection of courses</h1>
-                <p class="font-size-19">Choose from over 210,000 online video courses with new additions published every month</p>
+                <h1 class="mb-1">A broad selection of courses</h1>
+                <p class="font-size-19">Choose from over 210,000 online video courses with new additions published every
+                    month</p>
                 <div class="bsc-nav-bar">
                     <ul class="bsc-ul">
-                        <li class="bsc-ul-list-item"><a id="python" onclick="showPython()">Python</a></li>
-                        <li class="bsc-ul-list-item"><a id="excel" onclick="showExcel()">Excel</a></li>
-                        <li class="bsc-ul-list-item"><a id="web-development" onclick="showWebDevelopment()">Web
-                                Development</a></li>
-                        <li class="bsc-ul-list-item"><a id="javascript" onclick="showJavaScript()">Javascript</a></li>
-                        <li class="bsc-ul-list-item"><a id="data-science" onclick="showDataScience()">Data Science</a>
+                        <li class="bsc-ul-list-item" id="python">
+                            <a onclick="showPython()">Python</a>
                         </li>
-                        <li class="bsc-ul-list-item"><a id="amazon-aws" onclick="showAmazonAWS()">Amazon AWS</a></li>
-                        <li class="bsc-ul-list-item"><a id="drawing" onclick="showDrawing()">Drawing</a></li>
+                        <li class="bsc-ul-list-item" id="excel">
+                            <a onclick="showExcel()">Excel</a>
+                        </li>
+                        <li class="bsc-ul-list-item" id="web-development">
+                            <a onclick="showWebDevelopment()">Web Development</a>
+                        </li>
+                        <li class="bsc-ul-list-item" id="javascript">
+                            <a onclick="showJavaScript()">Javascript</a>
+                        </li>
+                        <li class="bsc-ul-list-item">
+                            <a id="data-science" onclick="showDataScience()">Data Science</a>
+                        </li>
+                        <li class="bsc-ul-list-item" id="amazon-aws">
+                            <a onclick="showAmazonAWS()">Amazon AWS</a>
+                        </li>
+                        <li class="bsc-ul-list-item" id="drawing">
+                            <a onclick="showDrawing()">Drawing</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="bsc-sub-container">
                     <div class="python-container" id="python-section">
                         <h4>Expand your career opportunities with Python</h4>
-                        <p class="font-size-16">Take one of Udemy&apos;s range of Python courses and learn how to code using this incredibly
+                        <p class="font-size-16">Take one of Udemy&apos;s range of Python courses and learn how to code
+                            using this incredibly
                             useful language. Its simple syntax and readability makes Python perfect for Flask, Django,
                             data science, and machine learning. You&apos;ll learn how to build everything from games to
                             sites
                             to apps. Choose from a range of courses that will appeal to</p>
-                        <a href="" class="a-btn">Explore Python</a>
+                        <a class="a-btn">Explore Python</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/python_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Complete Python Bootcamp From Zero to Hero in Python
+                                    <h5 class="card-title course-title font-size-17">
+                                        The Complete Python Bootcamp From Zero to Hero in Python
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.6 out of 5</b> <span id="num-reviews">(487608)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-course-rating-section"><b>4.6 out of 5</b> <span
+                                                id="num-reviews">(487608)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Complete Python Bootcamp From Zero to Hero in Python</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -267,23 +287,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/python_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Automate the Boring Stuff with Python Programming
+                                    <h5 class="card-title course-title font-size-17">Automate the Boring Stuff with
+                                        Python Programming
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Automate the Boring Stuff with Python Programming</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -323,23 +349,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/python_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Automate the Boring Stuff with Python Programming
+                                    <h5 class="card-title course-title font-size-17">Automate the Boring Stuff with
+                                        Python Programming
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Automate the Boring Stuff with Python Programming</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -379,24 +411,30 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/python_4.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus
+                                    <h5 class="card-title course-title font-size-17">Machine Learning A-Z™: AI, Python
+                                        &amp; R + ChatGPT Bonus
                                         [2023]
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus [2023]</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -433,23 +471,29 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/python_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Python for Data Science and Machine Learning Bootcamp
+                                    <h5 class="card-title course-title font-size-17">Python for Data Science and Machine
+                                        Learning Bootcamp
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Python for Data Science and Machine Learning Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -488,31 +532,37 @@
                     </div>
                     <div class="excel-container" id="excel-section">
                         <h4>Analyze and visualize data with Excel</h4>
-                        <p class="font-size-16">Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard
+                        <p class="font-size-16">Take a Microsoft Excel course from Udemy, and learn how to use this
+                            industry-standard
                             software. Real-world experts will show you the basics like how to organize data into sheets,
                             rows and columns, and advanced techniques like creating complex dynamic formulas. Both small
                             businesses and large companies use Excel to turn their raw data into actionable insights.
                         </p>
-                        <a href="" class="a-btn">Explore Excel</a>
+                        <a class="a-btn">Explore Excel</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/excel_1jpeg.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Microsoft Excel - Excel from Beginner to Advanced
+                                    <h5 class="card-title course-title font-size-17">Microsoft Excel - Excel from
+                                        Beginner to Advanced
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.6 out of 5</b> <span id="num-reviews">(487608)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section"><b>4.6 out of 5</b> <span
+                                                id="num-reviews">(487608)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Microsoft Excel - Excel from Beginner to Advanced</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -552,23 +602,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/excel_2jpeg.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Zero to Hero in Microsoft Excel: Complete Excel guide 2023
+                                    <h5 class="card-title course-title font-size-17">Zero to Hero in Microsoft Excel:
+                                        Complete Excel guide 2023
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Zero to Hero in Microsoft Excel: Complete Excel guide 2023</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -608,23 +664,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/excel_3jpeg.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Microsoft Excel Weekender Crash Course
+                                    <h5 class="card-title course-title font-size-17">Microsoft Excel Weekender Crash
+                                        Course
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Microsoft Excel Weekender Crash Course</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -664,22 +726,28 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/excel_4jpeg.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Microsoft Excel - Learn MS EXCEL For DATA Analysis</h5>
+                                    <h5 class="card-title course-title font-size-17">Microsoft Excel - Learn MS EXCEL
+                                        For DATA Analysis</h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Microsoft Excel - Learn MS EXCEL For DATA Analysis</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -716,23 +784,29 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/excel_5jpeg.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Ms Excel/Excel 2023 - The Complete Introduction to Excel
+                                    <h5 class="card-title course-title font-size-17">Ms Excel/Excel 2023 - The Complete
+                                        Introduction to Excel
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Ms Excel/Excel 2023 - The Complete Introduction to Excel</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -771,30 +845,37 @@
                     </div>
                     <div class="web-development-container" id="web-development-section">
                         <h4>Build websites and applications with Web Development</h4>
-                        <p class="font-size-16">The world of web development is as wide as the internet itself. Much of our social and
+                        <p class="font-size-16">The world of web development is as wide as the internet itself. Much of
+                            our social and
                             vocational lives play out on the internet, which prompts new industries aimed at creating,
                             managing, and debugging the websites and applications that we increasingly rely on.
                         </p>
-                        <a href="" class="a-btn">Explore Web Development</a>
+                        <a class="a-btn">Explore Web Development</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/wd_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                                    <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development
+                                        Bootcamp
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Complete 2023 Web Development Bootcamp</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -836,23 +917,28 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/wd_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Web Developer Bootcamp 2023
+                                    <h5 class="card-title course-title font-size-17">The Web Developer Bootcamp 2023
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Web Developer Bootcamp 2023</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -894,23 +980,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/wd_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Web Development Masterclass - Online Certification Course
+                                    <h5 class="card-title course-title font-size-17">Web Development Masterclass -
+                                        Online Certification Course
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Web Development Masterclass - Online Certification Course</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -952,23 +1044,29 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/wd_4.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Practical Web Development: 22 Courses in 1
+                                    <h5 class="card-title course-title font-size-17">Practical Web Development: 22
+                                        Courses in 1
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Practical Web Development: 22 Courses in 1</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1005,23 +1103,29 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/wd_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Complete Web Developer Course 3.0
+                                    <h5 class="card-title course-title font-size-17">The Complete Web Developer Course
+                                        3.0
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>The Complete Web Developer Course 3.0</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1060,33 +1164,40 @@
                     </div>
                     <div class="javascript-container" id="javascript-section">
                         <h4>Grow your software development skills with JavaScript</h4>
-                        <p class="font-size-16">JavaScript is a text-based computer programming language used to make dynamic web pages. A
+                        <p class="font-size-16">JavaScript is a text-based computer programming language used to make
+                            dynamic web pages. A
                             must-learn for aspiring web developers or programmers, JavaScript can be used for features
                             like image carousels, displaying countdowns and timers, and playing media on a webpage. With
                             JavaScript online classes, you can learn to build interactive web applications, choose the
                             best framework, and work with other programming languages like HTML and CSS. </p>
 
-                        <a href="" class="a-btn">Explore JavaScript</a>
+                        <a class="a-btn">Explore JavaScript</a>
 
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/js_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Complete JavaScript Course 2024: From Zero to Expert!
+                                    <h5 class="card-title course-title font-size-17">The Complete JavaScript Course
+                                        2024: From Zero to Expert!
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Complete JavaScript Course 2024: From Zero to Expert!</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1128,23 +1239,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/js_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2023
+                                    <h5 class="card-title course-title font-size-17">Complete JAVASCRIPT with HTML5,CSS3
+                                        from zero to Expert-2023
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2023</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1186,23 +1303,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/js_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">JavaScript - Basics to Advanced step by step
+                                    <h5 class="card-title course-title font-size-17">JavaScript - Basics to Advanced
+                                        step by step
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>JavaScript - Basics to Advanced step by step</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1244,23 +1367,28 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/js_4.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Learn JavaScript - For Beginners
+                                    <h5 class="card-title course-title font-size-17">Learn JavaScript - For Beginners
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Learn JavaScript - For Beginners</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1297,23 +1425,29 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/js_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">CSS &amp; JavaScript - Certification Course for Beginners
+                                    <h5 class="card-title course-title font-size-17">CSS &amp; JavaScript -
+                                        Certification Course for Beginners
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>CSS &amp; JavaScript - Certification Course for Beginners</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1352,32 +1486,39 @@
                     </div>
                     <div class="data-science-container" id="data-science-section">
                         <h4>Lead data-driven decisions with Data Science</h4>
-                        <p class="font-size-16">Data science application is an in-demand skill in many industries worldwide — including
+                        <p class="font-size-16">Data science application is an in-demand skill in many industries
+                            worldwide — including
                             finance, transportation, education, manufacturing, human resources, and banking. Explore
                             data science courses with Python, statistics, machine learning, and more to grow your
                             knowledge. Get data science training if you’re into research, statistics, and analytics.
                         </p>
-                        <a href="" class="a-btn">Explore Data Science</a>
+                        <a class="a-btn">Explore Data Science</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/ds_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus
+                                    <h5 class="card-title course-title font-size-17">Machine Learning A-Z™: AI, Python
+                                        &amp; R + ChatGPT Bonus
                                         [2023]
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus [2023]</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1419,23 +1560,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/wd_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Python for Data Science and Machine Learning Bootcamp
+                                    <h5 class="card-title course-title font-size-17">Python for Data Science and Machine
+                                        Learning Bootcamp
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Python for Data Science and Machine Learning Bootcamp</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1477,23 +1624,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/ds_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Data Science Course: Complete Data Science Bootcamp 2023
+                                    <h5 class="card-title course-title font-size-17">The Data Science Course: Complete
+                                        Data Science Bootcamp 2023
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Data Science Course: Complete Data Science Bootcamp 2023</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1535,23 +1688,29 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/ds_4.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">R Programming A-Z™: R For Data Science With Real Exercises!
+                                    <h5 class="card-title course-title font-size-17">R Programming A-Z™: R For Data
+                                        Science With Real Exercises!
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>R Programming A-Z™: R For Data Science With Real Exercises!</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1588,24 +1747,30 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/ds_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Data Science A-Z™: Hands-On Exercises &amp; ChatGPT Bonus
+                                    <h5 class="card-title course-title font-size-17">Data Science A-Z™: Hands-On
+                                        Exercises &amp; ChatGPT Bonus
                                         [2023]
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>Data Science A-Z™: Hands-On Exercises &amp; ChatGPT Bonus [2023]</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1644,32 +1809,39 @@
                     </div>
                     <div class="amazon-aws-container" id="amazon-aws-section">
                         <h4>Become an expert in cloud computing with AWS Certification</h4>
-                        <p class="font-size-16">Amazon Web Services (AWS) is a cloud computing platform with more than 200 featured services.
+                        <p class="font-size-16">Amazon Web Services (AWS) is a cloud computing platform with more than
+                            200 featured services.
                             Whether or not you aim for certification, an AWS course offers the theory and practical
                             skills you need to land a job in cloud development, sales, engineering, networking, and
                             more. The better you become at cloud computing, the more you can earn. Anyone can learn AWS
                             skills, and with AWS online training, you can move at your own pace.
                         </p>
-                        <a href="" class="a-btn">Explore Amazon AWS</a>
+                        <a class="a-btn">Explore Amazon AWS</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/aws_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02
+                                    <h5 class="card-title course-title font-size-17">[NEW] Ultimate AWS Certified Cloud
+                                        Practitioner CLF-C02
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1711,23 +1883,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/aws_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Big Data on Amazon web services (AWS)
+                                    <h5 class="card-title course-title font-size-17">Big Data on Amazon web services
+                                        (AWS)
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Big Data on Amazon web services (AWS)</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1769,23 +1947,29 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/aws_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Amazon Web Services (AWS) Certified - 4 Certifications!
+                                    <h5 class="card-title course-title font-size-17">Amazon Web Services (AWS) Certified
+                                        - 4 Certifications!
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Amazon Web Services (AWS) Certified - 4 Certifications!</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -1827,23 +2011,29 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/wd_4.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">AWS Certified Cloud Practitioner Exam Training [New] 2023
+                                    <h5 class="card-title course-title font-size-17">AWS Certified Cloud Practitioner
+                                        Exam Training [New] 2023
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>AWS Certified Cloud Practitioner Exam Training [New] 2023</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1880,23 +2070,29 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/wd_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">AWS Serverless APIs &amp; Apps - A Complete Introduction
+                                    <h5 class="card-title course-title font-size-17">AWS Serverless APIs &amp; Apps - A
+                                        Complete Introduction
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>AWS Serverless APIs &amp; Apps - A Complete Introduction</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -1935,32 +2131,39 @@
                     </div>
                     <div class="drawing-container" id="drawing-section">
                         <h4>Expand your creative skillset with Drawing</h4>
-                        <p class="font-size-16">Want to start drawing for fun or take your craft to the next level? Explore our online
+                        <p class="font-size-16">Want to start drawing for fun or take your craft to the next level?
+                            Explore our online
                             drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing
                             for cartoons and anime, illustration, sketching, shading and more. Take an overview course
                             on the fundamentals of drawing or zero in on an area you’d like to improve with a
                             specialized course. We’ve got tons of options to get — and keep — you going.
                         </p>
-                        <a href="" class="a-btn">Explore Drawing</a>
+                        <a class="a-btn">Explore Drawing</a>
                         <div class="slider-container">
                             <!-- first card -->
-                            <div class="card">
+                            <div class="card card-1">
                                 <img class="card-img-top" src="images/drawing_1.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Ultimate Drawing Course - Beginner to Advanced
+                                    <h5 class="card-title course-title font-size-17">The Ultimate Drawing Course -
+                                        Beginner to Advanced
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>The Ultimate Drawing Course - Beginner to Advanced</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -2002,23 +2205,29 @@
                             </div>
 
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card card-2">
                                 <img class="card-img-top" src="images/drawing_2.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Drawing Masterclass: Art, Sketching, Drawing Course
+                                    <h5 class="card-title course-title font-size-17">Drawing Masterclass: Art,
+                                        Sketching, Drawing Course
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>Drawing Masterclass: Art, Sketching, Drawing Course</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -2060,24 +2269,30 @@
                             </div>
 
                             <!-- third card -->
-                            <div class="card">
+                            <div class="card card-3">
                                 <img class="card-img-top" src="images/drawing_3.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">How to Draw Ep.1 - BASIC DRAWING SKILLS &amp; Sketching
+                                    <h5 class="card-title course-title font-size-17">How to Draw Ep.1 - BASIC DRAWING
+                                        SKILLS &amp; Sketching
                                         Course
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <div class="main-model-1">
                                     <h5>How to Draw Ep.1 - BASIC DRAWING SKILLS &amp; Sketching Course</h5>
                                     <div class="type-last-updated">
-                                        <span class="type">best seller</span>
+                                        <span class="course-badge">best seller</span>
                                         <span class="last-updated">Updated <b>November 23</b></span>
                                     </div>
                                     <div class="duration-level-subtitle">
@@ -2119,23 +2334,29 @@
                             </div>
 
                             <!-- fouth card -->
-                            <div class="card">
+                            <div class="card card-4">
                                 <img class="card-img-top" src="images/drawing_4.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">The Art &amp; Science of Drawing / BASIC SKILLS
+                                    <h5 class="card-title course-title font-size-17">The Art &amp; Science of Drawing /
+                                        BASIC SKILLS
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>The Art &amp; Science of Drawing / BASIC SKILLS</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2172,23 +2393,28 @@
                             </div>
 
                             <!-- fifth card -->
-                            <div class="card">
+                            <div class="card card-5">
                                 <img class="card-img-top" src="images/drawing_5.jpeg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">How to Draw From Beginner to Master
+                                    <h5 class="card-title course-title font-size-17">How to Draw From Beginner to Master
                                     </h5>
                                     <p class="card-text">
-                                        <span class="instructor">Dr.Author 1</span>
-                                        <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span>
+                                        <span class="course-instructor">Dr.Author 1</span>
+                                        <span class="course-rating-section">
+                                            <span class="course-rating">4.7 out of 5</span><span
+                                                class="course-rating-count">(340434)</span>
                                         </span>
-                                        <span class="current-price"><b>&#8377;3,199</b></span>
-                                        <span class="type">best seller</span>
+                                        <span class="course-price-section">
+                                            <span class="course-discount-price"></span>
+                                            <span class="course-regular-price">&#8377;3,199</span>
+                                        </span>
+                                        <span class="course-badge">best seller</span>
                                     </p>
                                 </div>
                                 <!-- <div class="main-model-2">
                         <h5>How to Draw From Beginner to Master</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2229,16 +2455,15 @@
             </div>
         </div>
 
-
         <!-- feedback section -->
         <div class="feedback-section">
-            <h3>How learners like you are achieving their goals</h3>
+            <h3 class="mb-3">How learners like you are achieving their goals</h3>
             <div class="main-card-container">
                 <!-- first card -->
-                <div class="card-container">
+                <div class="card-container user-review-card-1">
                     <div class="text-section">
                         <img src="images/quote.svg" alt="" height="17" width="16">
-                        <p>I am proud to say that after a few months of taking this course...<b>I passed my exam and am
+                        <p class="users-view-desc">I am proud to say that after a few months of taking this course...<b>I passed my exam and am
                                 now an AWS Certified Cloud Practitioner!</b> This content was exactly what the CCP exam
                             covered.</p>
                         <div class="text-by">
@@ -2261,10 +2486,10 @@
                 </div>
 
                 <!-- second card -->
-                <div class="card-container">
+                <div class="card-container user-review-card-2">
                     <div class="text-section">
                         <img src="images/quote.svg" alt="" height="17" width="16">
-                        <p>This course helped me <b>freshen up on my product manager skills and land a job at
+                        <p class="users-view-desc">This course helped me <b>freshen up on my product manager skills and land a job at
                                 Facebook!</b> Thanks guys :)</p>
                         <div class="text-by">
                             <span class="short-text">RF</span>
@@ -2286,10 +2511,10 @@
                 </div>
 
                 <!-- third card -->
-                <div class="card-container">
+                <div class="card-container user-review-card-3">
                     <div class="text-section">
                         <img src="images/quote.svg" alt="" height="17" width="16">
-                        <p>One of the best courses on management and leadership I have come across so far. The advice is
+                        <p class="users-view-desc">One of the best courses on management and leadership I have come across so far. The advice is
                             practical, and examples highly relatable.<b>Would help anyone become a better manager.</b>
                         </p>
                         <div class="text-by">
@@ -2312,10 +2537,10 @@
                 </div>
 
                 <!-- fouth card -->
-                <div class="card-container">
+                <!-- <div class="card-container">
                     <div class="text-section">
                         <img src="images/quote.svg" alt="" height="17" width="16">
-                        <p>I highly <b>recommend this course for all budding data scientists.</b> Even people with no
+                        <p class="users-view-desc">I highly <b>recommend this course for all budding data scientists.</b> Even people with no
                             prior knowledge of any visualization tools can become a master after completing this course.
                         </p>
                         <div class="text-by">
@@ -2335,32 +2560,36 @@
                             <span>Tableau 2022 A-Z: Hands-On Tableau Training for Data Science</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- Learners are viewing -->
         <div class="learners-viewing-container">
-            <h3>Learners are viewing</h3>
+            <h3 class="mb-3">Learners are viewing</h3>
             <div class="main-card-container">
 
                 <!-- first card -->
-                <div class="card">
+                <div class="card card-1">
                     <img class="card-img-top" src="images/coursesjpeg.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                        <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development Bootcamp 
                         </h5>
                         <p class="card-text">
-                            <span class="instructor">Dr.Author 1</span>
-                            <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span> </span>
-                            <span class="current-price"><b>&#8377;3,199</b></span>
-                            <span class="type">best seller</span>
+                            <span class="course-instructor">Dr.Author 1</span>
+                            <span class="course-rating-section"><b>4.7 out of 5</b> <span
+                                    id="num-reviews">(340434)</span> </span>
+                            <span class="course-price-section">
+                                <span class="course-discount-price"></span>
+                                <span class="course-regular-price">&#8377;3,199</span>
+                            </span>
+                            <span class="course-badge">best seller</span>
                         </p>
                     </div>
                     <div class="main-model-1">
                         <h5>The Complete 2023 Web Development Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2397,22 +2626,26 @@
                 </div>
 
                 <!-- second card -->
-                <div class="card">
+                <div class="card card-2">
                     <img class="card-img-top" src="images/coursesjpeg.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                        <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development Bootcamp
                         </h5>
                         <p class="card-text">
-                            <span class="instructor">Dr.Author 1</span>
-                            <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span> </span>
-                            <span class="current-price"><b>&#8377;3,199</b></span>
-                            <span class="type">best seller</span>
+                            <span class="course-instructor">Dr.Author 1</span>
+                            <span class="course-rating-section"><b>4.7 out of 5</b> <span
+                                    id="num-reviews">(340434)</span> </span>
+                            <span class="course-price-section">
+                                <span class="course-discount-price"></span>
+                                <span class="course-regular-price">&#8377;3,199</span>
+                            </span>
+                            <span class="course-badge">best seller</span>
                         </p>
                     </div>
                     <div class="main-model-1">
                         <h5>The Complete 2023 Web Development Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2449,22 +2682,26 @@
                 </div>
 
                 <!-- third card -->
-                <div class="card">
+                <div class="card card-3">
                     <img class="card-img-top" src="images/coursesjpeg.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                        <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development Bootcamp
                         </h5>
                         <p class="card-text">
-                            <span class="instructor">Dr.Author 1</span>
-                            <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span> </span>
-                            <span class="current-price"><b>&#8377;3,199</b></span>
-                            <span class="type">best seller</span>
+                            <span class="course-instructor">Dr.Author 1</span>
+                            <span class="course-rating-section"><b>4.7 out of 5</b> <span
+                                    id="num-reviews">(340434)</span> </span>
+                            <span class="course-price-section">
+                                <span class="course-discount-price"></span>
+                                <span class="course-regular-price">&#8377;3,199</span>
+                            </span>
+                            <span class="course-badge">best seller</span>
                         </p>
                     </div>
                     <div class="main-model-1">
                         <h5>The Complete 2023 Web Development Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2501,22 +2738,26 @@
                 </div>
 
                 <!-- fouth card -->
-                <div class="card">
+                <div class="card card-4">
                     <img class="card-img-top" src="images/coursesjpeg.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                        <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development Bootcamp
                         </h5>
                         <p class="card-text">
-                            <span class="instructor">Dr.Author 1</span>
-                            <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span> </span>
-                            <span class="current-price"><b>&#8377;3,199</b></span>
-                            <span class="type">best seller</span>
+                            <span class="course-instructor">Dr.Author 1</span>
+                            <span class="course-rating-section"><b>4.7 out of 5</b> <span
+                                    id="num-reviews">(340434)</span> </span>
+                            <span class="course-price-section">
+                                <span class="course-discount-price"></span>
+                                <span class="course-regular-price">&#8377;3,199</span>
+                            </span>
+                            <span class="course-badge">best seller</span>
                         </p>
                     </div>
                     <!-- <div class="main-model-2">
                         <h5>The Complete 2023 Web Development Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2553,22 +2794,26 @@
                 </div>
 
                 <!-- fifth card -->
-                <div class="card">
+                <div class="card card-5">
                     <img class="card-img-top" src="images/coursesjpeg.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp
+                        <h5 class="card-title course-title font-size-17">The Complete 2023 Web Development Bootcamp
                         </h5>
                         <p class="card-text">
-                            <span class="instructor">Dr.Author 1</span>
-                            <span class="rating"><b>4.7 out of 5</b> <span id="num-reviews">(340434)</span> </span>
-                            <span class="current-price"><b>&#8377;3,199</b></span>
-                            <span class="type">best seller</span>
+                            <span class="course-instructor">Dr.Author 1</span>
+                            <span class="course-rating-section"><b>4.7 out of 5</b> <span
+                                    id="num-reviews">(340434)</span> </span>
+                            <span class="course-price-section">
+                                <span class="course-discount-price"></span>
+                                <span class="course-regular-price">&#8377;3,199</span>
+                            </span>
+                            <span class="course-badge">best seller</span>
                         </p>
                     </div>
                     <!-- <div class="main-model-2">
                         <h5>The Complete 2023 Web Development Bootcamp</h5>
                         <div class="type-last-updated">
-                            <span class="type">best seller</span>
+                            <span class="course-badge">best seller</span>
                             <span class="last-updated">Updated <b>November 23</b></span>
                         </div>
                         <div class="duration-level-subtitle">
@@ -2682,7 +2927,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Python</span>
                                 </a>
                                 <span>36,354,994 learners</span>
@@ -2690,7 +2935,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Web Development</span>
                                 </a>
                                 <span>11,415,615 learners</span>
@@ -2698,7 +2943,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Machine Learning</span>
                                 </a>
                                 <span>7,070,015 learners</span>
@@ -2713,7 +2958,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Financial Analysis</span>
                                 </a>
                                 <span>1,195,282 learners</span>
@@ -2721,7 +2966,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>SQL</span>
                                 </a>
                                 <span>5,977,561 learners</span>
@@ -2729,7 +2974,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>PMP</span>
                                 </a>
                                 <span>1,733,398 learners</span>
@@ -2744,7 +2989,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Amazon AWS</span>
                                 </a>
                                 <span>6,123,456 learners</span>
@@ -2752,7 +2997,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Ethical Hacking</span>
                                 </a>
                                 <span>10,931,066 learners</span>
@@ -2760,7 +3005,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Cyber Security</span>
                                 </a>
                                 <span>3,998,037 learners</span>
@@ -2775,7 +3020,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Photoshop</span>
                                 </a>
                                 <span>10,909,736 learners</span>
@@ -2783,7 +3028,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Graphic Design</span>
                                 </a>
                                 <span>3,381,052 learners</span>
@@ -2791,7 +3036,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="">
+                                <a>
                                     <span>Drawing</span>
                                 </a>
                                 <span>2,410,849 learners</span>
@@ -2823,8 +3068,8 @@
                         </li>
                     </ul>
                     <div class="getudemy-learnmore">
-                        <span class="get-udemy">Get Udemy Bussiness</span>
-                        <span class="learn-more">Learn more</span>
+                        <span class="get-udemy" onclick="window.location.href='C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/udemy%20business/udemy_business.html'">Get Udemy Bussiness</span>
+                        <span class="learn-more" onclick="window.location.href='C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/why-udemy-business/why-udemy-business.html'">Learn more</span>
                     </div>
                 </div>
                 <div class="image-container">
@@ -2849,7 +3094,7 @@
                                     enabling consultants to stay ahead of big data trends and raise the bar on
                                     proficiency, skills, and competencies to meet client demand.
                                 </p>
-                                <a href="">Read full story</a>
+                                <a>Read full story</a>
                             </div>
                             <div class="col-6 image-section">
                                 <img src="images/James_Hemgen.jpeg" alt="" height="120" width="128">
@@ -2867,7 +3112,7 @@
                                     consultant soft skills. We're thankful that once they got in and took their key IT
                                     courses on AWS, Azure, Google Cloud, Big Data, and DevOps that they efficiently
                                     moved over to Consulting courses to help drive their career forward.</p>
-                                <a href="">Read full story</a>
+                                <a>Read full story</a>
                             </div>
                             <div class="col-6 image-section">
                                 <img src="images/Ian_Stevens.png" alt="" height="120" width="128">
@@ -2886,7 +3131,7 @@
                                     its skillset. With Udemy Business, I can give my team the space to learn and take
                                     the initiative. It means we can <b>produce higher quality work more quickly</b>.
                                 </p>
-                                <a href="">Read full story</a>
+                                <a>Read full story</a>
                             </div>
                             <div class="col-6 image-section">
                                 <img src="images/Ismaeel_Ameen.png" alt="" height="120" width="128">
@@ -2907,7 +3152,7 @@
                                     the workplace by offering fresh, relevant, personalized on-demand learning content
                                     powered by a dynamic content marketplace.
                                 </p>
-                                <a href="">Read full story</a>
+                                <a>Read full story</a>
                             </div>
                             <div class="col-6 image-section">
                                 <img src="images/Karen_hunter.png" alt="" height="120" width="128">
@@ -2928,7 +3173,7 @@
 
             </div>
             <div class="view-more-stories">
-                <a href="">View more customer stories</a>
+                <a>View more customer stories</a>
                 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-chevron-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -2960,29 +3205,29 @@
             <div class="row-1">
                 <div class="column-1">
                     <ul>
-                        <li><a href="">Udemy Business</a></li>
-                        <li><a href="">Teach on Udemy</a></li>
-                        <li><a href="">Get the app</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Contact us</a></li>
+                        <li><a>Udemy Business</a></li>
+                        <li><a>Teach on Udemy</a></li>
+                        <li><a>Get the app</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Contact us</a></li>
                     </ul>
                 </div>
                 <div class="column-2">
                     <ul>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Help and Support</a></li>
-                        <li><a href="">Affiliate</a></li>
-                        <li><a href="">Investors</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Help and Support</a></li>
+                        <li><a>Affiliate</a></li>
+                        <li><a>Investors</a></li>
                     </ul>
                 </div>
                 <div class="column-3">
                     <ul>
-                        <li><a href="">Terms</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Cookie settings</a></li>
-                        <li><a href="">Sitemap</a></li>
-                        <li><a href="">Accessibility statement</a></li>
+                        <li><a>Terms</a></li>
+                        <li><a>Privacy Policy</a></li>
+                        <li><a>Cookie settings</a></li>
+                        <li><a>Sitemap</a></li>
+                        <li><a>Accessibility statement</a></li>
                     </ul>
                 </div>
                 <div class="column-4">
@@ -3014,6 +3259,25 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+
+    <!-- jquery -->
+    <!-- Include jQuery before your custom script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Your custom script for equal height -->
+    <script>
+
+        $(document).ready(function () {
+                // Get the maximum height among all the divs
+                var maxHeight = Math.max.apply(null, $(".users-view-desc").map(function () {
+                    return $(this).height();
+                }).get());
+
+                // Set the maximum height to all divs
+                $(".users-view-desc").height(maxHeight);
+            });
+    </script>
 </body>
 
 </html>
