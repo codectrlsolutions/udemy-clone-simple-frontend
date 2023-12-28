@@ -1382,9 +1382,9 @@ footer {
 }
 
 .wub-container .row .explore-plans:hover {
-    background-color: var(--purple);
+    background-color: var(--color-purple-300);
     color: var(--white);
-    border-color: var(--purple);
+    border-color: var(--color-purple-300);
 }
 
 .wub-container .row .request-a-demo {
@@ -1416,6 +1416,14 @@ footer {
         max-height: 300px;
     }
 }
+@media screen and (max-width:320px){
+    .wub-container .a-container{
+        display: grid;
+        grid-template-rows: auto;
+        gap: 12px;
+        text-align: center;
+    }
+}
 
 .common-btn {
     padding: 13px 11px;
@@ -1423,35 +1431,49 @@ footer {
     border-radius: 0;
 }
 
-.trusted-bussiness-container{
+.trusted-bussiness-container {
     width: 100%;
     padding: 5%;
-}
-.trusted-bussiness-container h5{
-text-align: center;
-}
-.tb-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.tb-section img{
-    max-width: 150px;
-    height: auto;
 }
 
-.curated-learning-container{
+.trusted-bussiness-container h5 {
+    text-align: center;
+}
+
+/* .tb-section {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* .tb-section img {
+    max-width: 150px;
+    height: auto;
+} */
+/* @media screen and (max-width:767px){
+    .tb-section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+} */
+.curated-learning-container {
     width: 100%;
     padding: 5%;
 }
-.curated-learning-container h2{
+
+.curated-learning-container h2 {
     text-align: center;
     margin-bottom: 48px;
 }
+.trusted-bussiness-container .row,
 .curated-learning-container .row,
 .dedicated-customer-success-teams-container .row,
 .enterprise-grade-platform-container .row,
-.personalized-learning-container .row{
+.personalized-learning-container .row,
+.get-instant-access-to-courses-container .row,
+.like-what-you-see-container .row {
     padding: 0;
     margin: 0;
 }
@@ -1459,21 +1481,100 @@ text-align: center;
 .drive-company-wide-learning-container,
 .dedicated-customer-success-teams-container,
 .enterprise-grade-platform-container,
-.personalized-learning-container{
+.personalized-learning-container,
+.get-instant-access-to-courses-container {
     width: 100%;
     padding: 5%;
 }
+
 .dedicated-customer-success-teams-container .right-container,
 .enterprise-grade-platform-container .left-container,
-.personalized-learning-container .right-container{
+.personalized-learning-container .right-container {
     padding: 100px 5%;
 }
+
 .right-container .learn-more,
-.left-container .learn-more{
+.left-container .learn-more {
     color: var(--indigo);
 }
+
 .right-container .learn-more:hover a,
-.left-container .learn-more:hover a{
+.left-container .learn-more:hover a {
     color: var(--purple);
+    text-decoration: none;
+}
+
+
+.get-instant-access-to-courses-container .view-courses-section .view-courses {
+    color: var(--indigo);
+}
+
+.get-instant-access-to-courses-container .view-courses-section .view-courses:hover {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.get-instant-access-to-courses-container .view-all-courses {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.get-instant-access-to-courses-container .view-all-courses:hover {
+    text-decoration: none;
+    background-color: var(--indigo);
+}
+
+.like-what-you-see-container {
+    background-color: #f0f2f4;
+    padding: 5% 20%;
+}
+
+.like-what-you-see-container .tour-the-platform-section .tour-the-platform {
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+
+.like-what-you-see-container .tour-the-platform-section .tour-the-platform:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-color: var(--blue);
+    text-decoration: none;
+}
+@media screen and (max-width:767px){
+    .like-what-you-see-container {
+            background-color: #f0f2f4;
+            padding: 5%;
+        }
+    .like-what-you-see-container .left-container {
+        margin-bottom: 16px;
+    }
+}
+.color-purple {
+    color: var(--color-purple-300);
+}
+
+.strategic-learning-partner-container {
+    padding: 5% 20%;
+    background-color: var(--color-purple-300);
+}
+
+.strategic-learning-partner-container h2 {
+    color: var(--white);
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.strategic-learning-partner-container h2 em {
+    color: #E9E729;
+}
+
+.strategic-learning-partner-container .request-a-demo-today {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.strategic-learning-partner-container .request-a-demo-today:hover {
+    background-color: var(--white);
+    color: var(--black);
     text-decoration: none;
 }
