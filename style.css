@@ -1161,7 +1161,7 @@ ul {
 
 .instruction .main-container .text-container .start-teaching-today:hover {
     background-color: #6a6f73;
-    
+
 }
 
 @media screen and (max-width: 980px) {
@@ -1417,8 +1417,9 @@ footer {
         max-height: 300px;
     }
 }
-@media screen and (max-width:320px){
-    .wub-container .a-container{
+
+@media screen and (max-width:320px) {
+    .wub-container .a-container {
         display: grid;
         grid-template-rows: auto;
         gap: 12px;
@@ -1440,6 +1441,7 @@ footer {
 .trusted-bussiness-container h5 {
     text-align: center;
 }
+
 .curated-learning-container {
     width: 100%;
     padding: 5%;
@@ -1449,6 +1451,7 @@ footer {
     text-align: center;
     margin-bottom: 48px;
 }
+
 .trusted-bussiness-container .row,
 .curated-learning-container .row,
 .dedicated-customer-success-teams-container .row,
@@ -1459,7 +1462,7 @@ footer {
 .so-many-reasons-to-start-container .row,
 .how-to-begin-container .row,
 .teaching-review-container .row,
-.get-started-container-containter .row{
+.get-started-container-containter .row {
     padding: 0;
     margin: 0;
 }
@@ -1526,15 +1529,18 @@ footer {
     border-color: var(--blue);
     text-decoration: none;
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) {
     .like-what-you-see-container {
-            background-color: #f0f2f4;
-            padding: 5%;
-        }
+        background-color: #f0f2f4;
+        padding: 5%;
+    }
+
     .like-what-you-see-container .left-container {
         margin-bottom: 16px;
     }
 }
+
 .color-purple {
     color: var(--color-purple-300);
 }
@@ -1583,77 +1589,141 @@ footer {
 
 
 /* teaching */
-.come-teach-with-us-containter,.come-teach-with-us-containter img{
+.come-teach-with-us-containter,
+.come-teach-with-us-containter img {
     width: 100%;
-    /* height: 100vh; */
-    background-color: red;
 }
+.come-teach-with-us-containter .hero-banner-container {
+    display: block;
+}
+.come-teach-with-us-containter .hero-banner {
+    position: relative;
+}
+.come-teach-with-us-containter .small-image-container {
+    display: none;
+}
+.come-teach-with-us-containter .hero-banner .hero-banner-text {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.come-teach-with-us-containter .hero-banner .hero-banner-text h1{
+    font-size: 40px;
+    line-height: 48px;
+}
+.come-teach-with-us-containter .hero-banner .hero-banner-text a{
+    /* display: block; */
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .hide-at-below-1200{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+.come-teach-with-us-containter .hero-banner-container{
+        display: none;
+    }
 
-.so-many-reasons-to-start-container{
+    .come-teach-with-us-containter .small-image-container {
+        display: block;
+    } 
+    .small-image-container .get-started{
+        display: block;
+    }
+        .small-image-container .get-started:hover{
+            display: block;
+            text-decoration: none;
+                background-color: var(--color-gray-400);
+                color: var(--white);
+        }
+
+}
+.so-many-reasons-to-start-container {
     padding: 0 36px;
 }
-.stats-container{
+
+.stats-container {
     background-color: var(--indigo);
     color: var(--white);
     padding: 5% 10%;
 }
-.stats-container h1{
+
+.stats-container h1 {
     font-size: 40px;
     line-height: 48px;
 }
-.how-to-begin-container{
+
+.how-to-begin-container {
     padding: 5% 15%;
 }
-.htb-list-container .htb-list{
+
+.htb-list-container .htb-list {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
-.htb-list-container .htb-list .htb-list-item{
+
+.htb-list-container .htb-list .htb-list-item {
     padding: 10px 5px;
     cursor: pointer;
 }
-.htb-list-container .htb-list .htb-list-item .htb-list-item-a{
+
+.htb-list-container .htb-list .htb-list-item .htb-list-item-a {
     color: var(--color-gray-300);
 }
-.htb-list-container .htb-list .htb-list-item:hover .htb-list-item-a{
+
+.htb-list-container .htb-list .htb-list-item:hover .htb-list-item-a {
     text-decoration: none;
-        color: var(--black);
+    color: var(--black);
 }
-.teaching-review-container{
-padding: 5% 15%;
+
+.teaching-review-container {
+    padding: 5%;
 }
-.font-size-24{
+
+.font-size-24 {
     font-size: 24px;
 }
-.professional-name{
+
+.professional-name {
     color: var(--color-gray-300);
 }
-.get-started-container-containter{
+
+.get-started-container-containter {
     margin: 200px 0;
 }
-.get-started-container-containter h1{
+
+.get-started-container-containter h1 {
     font-size: 40px;
     line-height: 48px;
 }
-.a-indigo{
+
+.a-indigo {
     color: var(--color-blue-300);
     text-decoration-line: underline;
     text-decoration-color: var(--color-blue-300);
 }
-.a-indigo:hover{
+
+.a-indigo:hover {
     color: var(--purple);
     text-decoration-line: underline;
     text-decoration-color: var(--purple);
 }
-.become-an-instructor-today-container{
+
+.become-an-instructor-today-container {
     margin: 5% 0;
 }
-.become-an-instructor-today-container .get-started{
+
+a.get-started {
     color: var(--white);
     background-color: var(--black);
 }
-.become-an-instructor-today-container .get-started:hover{
+
+a.get-started:hover {
     text-decoration: none;
     background-color: var(--color-gray-400);
+    color: var(--white);
 }
