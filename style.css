@@ -1462,7 +1462,8 @@ footer {
 .so-many-reasons-to-start-container .row,
 .how-to-begin-container .row,
 .teaching-review-container .row,
-.get-started-container-containter .row {
+.get-started-container-containter .row,
+.market-place-container .row {
     padding: 0;
     margin: 0;
 }
@@ -1786,8 +1787,185 @@ ul.ul-list-style-circle {
     .mobile-sub-containter .features-ul-list-containter {
         width: 100%;
     }
-    .mobile-sub-containter .google-apple-icon-container{
+
+    .mobile-sub-containter .google-apple-icon-container {
         display: flex;
         justify-content: center;
     }
+}
+
+/* about */
+.about-banner-container {
+    width: 100%;
+    padding: 0 5%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-banner-container .text-container {
+    width: 50%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner-container .image-container {
+    width: 50%;
+    background-image: url('C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/assets/about/about-us.png');
+    /* height: 80vh; */
+    background-repeat: no-repeat;
+}
+
+.latest-news-container {
+    background-color: var(--color-purple-300);
+    padding: 20px 0;
+}
+
+.latest-news-container .latest-news-text {
+    color: var(--white);
+}
+
+.latest-news-container .latest-news-text:hover {
+    text-decoration-thickness: 1px;
+    /* color: var(--white); */
+}
+
+.learning-text .learning_desc {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.market-place-container {
+    width: 100%;
+    padding: 0 5%;
+    margin: 5% 0;
+}
+
+.reach-container {
+    background-color: var(--indigo);
+    color: var(--white);
+    padding: 5% 0;
+}
+
+.reach-text-container .reach-desc {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/* .reach-stats-container{
+    padding: 5% 0;
+} */
+.reach-stats-container .reach-stats-content {
+    flex: 1 22%;
+    width: 22%;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    /* height: 10rem; */
+}
+
+.reach-stats-container .reach-stats-content h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 0;
+}
+
+.quotes {
+    margin: 5% 0;
+}
+
+.learn-more-btn {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.learn-more-btn:hover {
+    color: var(--white);
+    text-decoration: none;
+    background-color: #3e4143;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.quote-p::before {
+    content: '\275D \275E';
+    position: absolute;
+    top: -30px;
+    font-size: 50px;
+    color: var(--color-purple-300);
+}
+
+.quote-p {
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.quote-title {
+    font-size: 14px;
+}
+
+.quote-link-text .quote-link-text-a {
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-blue-300);
+}
+
+.quote-link-text .quote-link-text-a:hover {
+    color: var(--purple);
+    text-decoration: none;
+}
+.logos-container{
+    margin: 5% 0;
+    padding: 0 5%;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    height: 20%;
+    margin-bottom: 8px;
+    width: 100px;
+}
+.logo-img img{
+    max-width: 80%;
+    height: 75%;
+}
+.wrb-container{
+    margin: 5% 0;
+    padding: 0 5%;
+}
+.wrb-container .row{
+    margin: 0;
+    padding: 0;
+}
+.wrb-work-container,
+.wrb-research-container,
+.wrb-blog-container{
+    padding: 24px;
+}
+.wrb-work-container{
+    background-color: var(--color-purple-300);
+    color: var(--white);
+}
+.wrb-research-container{
+    background-color: #dddb36;
+    color: var(--black);
+}
+.wrb-blog-container{
+    background-color: #2d907f;
+    color: var(--white);
+}
+p.wrb-work-desc,
+p.wrb-research-desc,
+p.wrb-blog-desc
+{
+font-size: 20px;
 }
