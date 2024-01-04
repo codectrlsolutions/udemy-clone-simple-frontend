@@ -14,14 +14,54 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light about-navbar">
+        <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="90" height="35">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex flex-column mr-5 ml-5 about-investors-container">
+            <a href="" class="active">About Us</a>
+            <a href="">Investors</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">ESG at Udemy</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">Company</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#">Press</a>
+                </li>
+            </ul>
+        </div>
+        <div class="login-signup-container">
+            <a href="" class="nav-btn-login font-weight-700 mr-3">Login</a>
+            <a href="" class="nav-btn-signup font-weight-700">Sign Up</a>
+        </div>
+    </nav>
     <section class="about-banner">
         <div class="about-banner-container">
             <div class="text-container">
-                <h1 class="font-weight-700">
+                <h2 class="font-weight-700">
                     We share knowledge with the world
-                </h1>
+                </h2>
             </div>
             <div class="image-container">
+                <img src="../assets/about/about-us.png" alt="">
             </div>            
         </div>
     </section>
@@ -102,7 +142,7 @@
                     We just keep growing
                 </h2>
                 <p class="font-size-19 reach-desc">
-                    Our global community and our course catalog get bigger every day.  Check out our latest numbers as of September
+                    Our global community and our course catalog get bigger every day. Check out our latest numbers as of September
                     2023.
                 </p>
             </div>
@@ -264,8 +304,7 @@
     </section>
     <section class="wrb">
         <div class="wrb-container">
-            <div class="row">
-                <div class="col-4 wrb-work-container">
+                <div class="wrb-work-container">
                     <h2 class="font-weight-700">
                         Work with us
                     </h2>
@@ -273,9 +312,15 @@
                         At Udemy, we’re all learners and instructors. We live out our values every day to create a culture that is diverse,
                         inclusive, and committed to helping employees thrive.
                     </p>
-                    <a href="">Join our team</a>
+                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/about.udemy.com/careers/careers.html" 
+                    class="font-weight-700 font-size-19" target="_self">Join our team</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-chevron-right"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                    </svg>
                 </div>
-                <div class="col-4 wrb-research-container">
+                <div class="wrb-research-container">
                     <h2 class="font-weight-700">
                         See our research
                     </h2>
@@ -283,9 +328,15 @@
                         We’re committed to improving lives through learning. Dig into our original research to learn about the forces that are
                         shaping the modern workplace.
                     </p>
-                    <a href="">Learn more</a>
+                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/research.udemy.com/research/research.html" 
+                    class="font-weight-700 font-size-19" target="_blank">Learn more</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-chevron-right"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                    </svg>
                 </div>
-                <div class="col-4 wrb-blog-container">
+                <div class="wrb-blog-container">
                     <h2 class="font-weight-700">
                         Read our blog
                     </h2>
@@ -293,11 +344,180 @@
                         Want to know what we’ve been up to lately? Check out the Udemy blog to get the scoop on the latest news, ideas and
                         projects, and more.
                     </p>
-                    <a href="">Read now</a>
+                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/about.udemy.com/blog/blog.html" 
+                    class="font-weight-700 font-size-19" target="_blank">Read now</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-chevron-right"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons d-flex flex-row justify-content-end align-items-center">
+                <div class="mr-5">
+                    Follow us
+                </div>
+                <div class="mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+                </div>
+                <div class="mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                </div>
+                <div class="mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                    </svg>
+                </div>
+                <div class="mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row ul-language-container">
+                <div class="col-6 ul-container">
+                    <div class="row">
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <a href=""
+                                    target="_self">Udemy Business</a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/teaching/teaching.html"
+                                    target="_self">Teach on Udemy</a>
+                                </li>
+                                <li>
+                                    <a href="file:///C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/mobile/mobile.html"
+                                    target="_self">
+                                        Get the app
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                    target="_self">
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                    target="_self">
+                                        Cookie settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/about.udemy.com/blog/blog.html"
+                                    target="_self">Blog</a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                    target="_self">Help</a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/affiliate/affiliate.html"
+                                    target="_self">
+                                        Affiliate
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/about.udemy.com/accessibility-statement/accessibility-statement.html"
+                                    target="_self">
+                                        Accessibility statement
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/investors.udemy.com/investors/investors.html"
+                                    target="_self">
+                                        Investors
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/terms/terms.html"
+                                    target="_self">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/terms/privacy/privacy.html"
+                                    target="_self">Privacy policy and cookie policy</a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/sitemap/sitemap.html"
+                                    target="_self">
+                                        Sitemap
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="C:/laragon/www/mhg-web-app/udemy-clone-simple-frontend/featured-topics/featured-topics.html"
+                                    target="_self">
+                                        Featured topics
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="world-language-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                        </svg>
+                        <span class="ml-1">English</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-copyright-container d-flex justify-content-between flex-row">
+                <div class="logo-container" onclick="goToHomePage()">
+                    <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="">
+                    <!-- <svg width="213" height="80" viewBox="0 0 213 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.0587 19.088L16.528 9.544L0 19.088V9.544L16.5307 0L33.0613 9.544V19.088H33.0587Z" fill="#A435F0" />
+                        <path
+                            d="M0 27.1013H8.65866V48.1386C8.65866 53.576 12.7173 56.224 16.5307 56.224C20.3733 56.224 24.4027 53.504 24.4027 48.0666V27.1013H33.0613V48.64C33.0613 53.648 31.488 57.512 28.3387 60.16C25.1893 62.808 21.2533 64.096 16.4587 64.096C11.664 64.096 7.728 62.808 4.65066 60.16C1.57333 57.512 0 53.792 0 48.8533V27.1013Z"
+                            fill="white" />
+                        <path
+                            d="M107.92 53.2479C105.299 55.5813 102.312 56.7253 98.9066 56.7253C92.6986 56.7253 88.5307 53.1866 88.0613 47.7066H116.04C116.04 47.7066 116.224 45.936 116.224 44.2746C116.224 39.1226 114.579 34.8293 111.216 31.3226C107.925 27.816 103.632 26.0986 98.408 26.0986C92.8986 26.0986 88.3893 27.816 84.8107 31.3226C81.304 34.8293 79.5146 39.408 79.5146 45.1333V45.4186C79.5146 51.072 81.304 55.5786 84.8107 58.944C88.3173 62.3066 92.968 64.0239 98.6213 64.0239C105.195 64.0239 110.427 61.4319 114.352 56.9599L107.92 53.2479ZM91.464 35.688C93.3946 34.184 95.7573 33.3973 98.4053 33.3973C100.909 33.3973 102.984 34.184 104.773 35.76C106.483 37.1946 107.405 38.9573 107.485 40.984H88.28C88.5573 38.8906 89.616 37.1253 91.464 35.688Z"
+                            fill="white" />
+                        <path
+                            d="M195.085 68.8853C191.568 77.1787 187.893 80 182.259 80C181.293 80 178.355 80 178.355 80V72.3253C178.355 72.3253 179.573 72.3253 181.512 72.3253C183.451 72.3253 185.253 71.5973 186.971 67.632C188.688 63.6667 188.688 63.6667 188.688 63.6667L173.875 27.1013H182.677L193.197 53.4347L204.003 27.1013H212.805C212.803 27.1013 198.704 60.3493 195.085 68.8853Z"
+                            fill="white" />
+                        <path
+                            d="M66.7708 13.2906V30.368C63.9334 27.824 59.5201 26.312 55.2507 26.312C50.1707 26.312 45.8774 28.1013 42.3708 31.7493C38.9361 35.328 37.2188 39.7626 37.2188 45.1306C37.2188 50.4986 38.9361 54.9333 42.3708 58.584C45.8774 62.1627 50.1707 63.952 55.2507 63.952C61.1121 63.952 64.8134 61.6507 66.7708 59.8453V63.1653H75.3574V13.2906H66.7708ZM64.1948 53.0053C62.1201 55.08 59.4721 56.1546 56.3948 56.1546C53.3174 56.1546 50.8134 55.08 48.7387 53.0053C46.7361 50.9306 45.7334 48.2827 45.7334 45.1333C45.7334 41.984 46.7361 39.336 48.7387 37.2613C50.8134 35.1867 53.3174 34.112 56.3948 34.112C59.4721 34.112 62.1201 35.1867 64.1948 37.2613C66.3414 39.336 67.4161 41.984 67.4161 45.1333C67.4161 48.2827 66.3414 50.9306 64.1948 53.0053Z"
+                            fill="white" />
+                        <path
+                            d="M160.525 26.3867C154.003 26.3867 150.611 29.0933 148.288 31.6987C147.36 29.928 144.744 26.3867 138.629 26.3867C133.464 26.3867 130.416 28.9973 128.899 30.8587V27.104H120.384V63.168H128.899V42.416C128.899 37.5493 131.904 34.0427 135.912 34.0427C139.992 34.0427 142.352 37.12 142.352 42.056V63.1653H150.867V42.4133C150.867 37.4747 153.8 34.04 158.021 34.04C162.101 34.04 164.461 37.1173 164.461 42.0533V63.1626H173.048V40.8373C173.048 31.4347 167.995 26.3867 160.525 26.3867Z"
+                            fill="white" />
+                    </svg> -->
+                </div>
+                <div>
+                    © 2024 Udemy, Inc.
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
     <!-- local script -->
     <script src="about_script.js"></script>
@@ -316,12 +536,12 @@
     <script>
         $(document).ready(function () {
             // Get the maximum height among all the divs
-            var maxHeight = Math.max.apply(null, $(".business-title").map(function () {
+            var maxHeight = Math.max.apply(null, $(".wrb-container p").map(function () {
                 return $(this).height();
             }).get());
 
             // Set the maximum height to all divs
-            $(".business-title").height(maxHeight);
+            $(".wrb-container p").height(maxHeight);
         });
     </script>
 </body>
