@@ -1796,41 +1796,48 @@ ul.ul-list-style-circle {
 
 /* about */
 .nav-link,
-.about-investors-container a{
+.about-investors-container a {
     color: var(--black) !important;
 }
+
 .nav-link:hover,
-.about-investors-container .active{
+.about-investors-container .active {
     color: #401b9c !important;
 }
-.about-investors-container a:hover{
+
+.about-investors-container a:hover {
     text-decoration: none;
 }
-.login-signup-container .nav-btn-login{
+
+.login-signup-container .nav-btn-login {
     border: 1px solid var(--black);
     padding: 10px 21px;
     color: var(--black);
 }
-.login-signup-container .nav-btn-login:hover{
+
+.login-signup-container .nav-btn-login:hover {
     color: var(--white);
     text-decoration: none;
     border: none;
     background-color: var(--color-gray-300);
 }
-.login-signup-container .nav-btn-signup{
+
+.login-signup-container .nav-btn-signup {
     color: var(--white);
     background-color: var(--black);
-    
+
     padding: 10px 21px;
     border: 1px solid var(--black);
 }
-.login-signup-container .nav-btn-signup:hover{
+
+.login-signup-container .nav-btn-signup:hover {
     color: var(--white);
     background-color: var(--color-gray-300);
-    
+
     text-decoration: none;
-    
+
 }
+
 .about-banner-container {
     width: 100%;
     padding: 0 20px;
@@ -1845,14 +1852,14 @@ ul.ul-list-style-circle {
     align-items: center;
 }
 
-.about-banner-container .image-container img{
+.about-banner-container .image-container img {
     max-height: 430px;
     width: 100%;
 }
 
 .latest-news-container {
     background-color: var(--color-purple-300);
-    padding: 20px 0;
+    padding: 14px 0;
 }
 
 .latest-news-container .latest-news-text {
@@ -1866,6 +1873,7 @@ ul.ul-list-style-circle {
 .learning-text .learning_desc {
     max-width: 80%;
     margin: 0 auto;
+    font-size: 19px;
 }
 
 .market-place-container {
@@ -2014,32 +2022,42 @@ p.wrb-blog-desc {
     font-size: 20px;
 }
 
-.footer-container {
+.footer-container-2 {
     background-color: var(--black);
     color: var(--white);
 }
 
-.footer-container a,
-.footer-container a:hover {
+.footer-container-2 a,
+.footer-container-2 a:hover {
     color: var(--white);
 }
 
-.footer-container .row,
-.footer-container .col-4,
-.footer-container .col-6{
+.footer-container-2 .row,
+.footer-container-2 .col-4,
+.footer-container-2 .col-6 {
     margin: 0;
     padding: 0;
 }
-.social-icons{
+
+.social-icons {
     border-bottom: 1px solid var(--white);
     padding: 24px;
 }
-.social-icons svg:hover{
+
+.social-icons svg:hover {
     cursor: pointer;
 }
-.ul-language-container{
+.ul-language-container-above-768{
+    display: block;
+}
+.ul-language-container-below-768{
+    display: none;
+}
+.ul-language-container-above-768,
+.ul-language-container-below-768{
     padding: 24px !important;
 }
+
 .world-language-container {
     width: fit-content;
     padding: 8px 11px;
@@ -2047,26 +2065,31 @@ p.wrb-blog-desc {
     float: right;
     cursor: pointer;
 }
-.world-language-container:hover{
+
+.world-language-container:hover {
     color: rgb(207, 205, 205);
 }
-.logo-copyright-container{
+
+.logo-copyright-container {
     padding: 24px;
 }
-.logo-copyright-container .logo-container{
+
+.logo-copyright-container .logo-container {
     width: 100px;
     /* height: 100px; */
 }
-.logo-copyright-container .logo-container:hover{
+
+.logo-copyright-container .logo-container:hover {
     cursor: pointer;
 }
-.about-navbar{
+
+.navbar-2 {
     padding: 12px 36px !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
 }
 
-@media screen and (max-width:800px){
-.about-banner-container {
+@media screen and (max-width:800px) {
+    .about-banner-container {
         width: 100%;
         padding: 0 20px;
         display: flex;
@@ -2077,15 +2100,113 @@ p.wrb-blog-desc {
         display: flex;
         justify-content: start;
         align-items: start;
-        padding: 24px 0;
+        max-width: 463px;
+        padding: 0;
+        margin: 24px 0;
     }
-        .about-banner-container .image-container{
-            display: flex;
-            justify-content: center;
-                align-items: center;
-        }
+
+    .about-banner-container .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about-banner-container .image-container img {
         max-height: 260px;
         width: auto;
     }
+
+    .learning-text .learning_desc {
+        font-size: 16px;
+    }
+
+    .market-place-container .col-6 {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:767px){
+    .ul-language-container-above-768 {
+            display: none;
+        }
+    
+        .ul-language-container-below-768 {
+            display: block;
+        }
+}
+
+/* company */
+.company-banner-container {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.company-banner-container .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-banner-container .image-container img {
+    max-height: 430px;
+    width: 100%;
+}
+
+.our-origins,
+.how-we-started,
+.our-offices {
+    margin: 5% 0;
+    padding: 0 5%;
+}
+
+.our-origins-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-origins-container p {
+    font-size: 19px;
+}
+
+.how-we-started .row {
+    margin: 0;
+    padding: 0;
+}
+
+.our-offices .our-offices-text {
+    font-weight: 700;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.our-offices .our-offices-container {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 5% 2.5%;
+}
+
+.our-offices-container .city-name {
+    font-size: 32px;
+    padding: 12px 0;
+    font-weight: 700;
+}
+
+.help-support {
+    margin: 10% 0 5% 0;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.help-support .help-support-text {
+    color: var(--color-blue-300);
+}
+
+.help-support .help-support-text {
+    text-decoration: none;
+    color: #401b9c;
 }
