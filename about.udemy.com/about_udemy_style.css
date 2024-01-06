@@ -1,0 +1,188 @@
+/* careers */
+.career-btn {
+    color: white !important;
+    padding: 11px 12px;
+    background-color: #5624d0;
+    border: none;
+}
+
+.career-btn:hover {
+    background-color: #4d20ba;
+    text-decoration: none !important;
+}
+
+.revolutionize {
+    width: 100%;
+    /* margin: 0 0 5% 0; */
+    padding: 10% 10% 0 10%;
+}
+
+.video-summery-container {
+    margin-bottom: 24px;
+}
+
+.revolutionize-container .video-summery-container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summery-container h1 {
+    font-size: 64px;
+    line-height: 68px;
+    font-weight: 700;
+}
+
+.summery-container .video-summery {
+    font-size: 18px;
+}
+
+.career-opportunities-text {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.like-navbar {
+    margin-bottom: 5%;
+    position: sticky;
+    top: -1px;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08); */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: hsla(0, 0%, 100%, .9);
+}
+
+.like-navbar-container {
+    padding: 24px;
+}
+
+.like-navbar-container .list-unstyled {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.like-navbar-container .career-sticky-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-sticky-nav a {
+    color: black;
+}
+
+.career-sticky-nav a:hover {
+    color: #5624d0;
+    text-decoration: underline;
+}
+
+#why-udemy {
+    padding: 0 10%;
+    /* z-index: -1; */
+}
+
+.why-udemy-sub-div-1 h1 {
+    text-align: center;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.why-udemy-sub-div-1 .udemy-section-desc {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.why-udemy-sub-div-1 .udemy-section-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #5624d0;
+}
+
+.why-udemy-sub-div-1 .udemy-section-link:hover {
+    color: #401b9c;
+}
+
+.why-udemy-sub-div-2 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    /* justify-content: space-between; */
+    gap: 1.33%;
+}
+
+.why-udemy-image-container .why-udemy-image-desc {
+    margin-top: 16px;
+    border-left: 2px solid #a435f0;
+    padding: 0 12px;
+}
+
+.why-udemy-sub-div-3 {
+    margin: 5% 0;
+}
+
+.why-udemy-sub-div-3 .row {
+    padding: 0;
+    margin: 0;
+}
+
+.why-udemy-sub-div-3 .image-desc-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+a.here-link {
+    color: #5624d0;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+a.here-link:hover {
+    color: #401b9c;
+}
+
+.why-udemy-banner-desc-container {
+    padding: 0 10%;
+    margin-top: 36px;
+    font-size: 18px;
+}
+
+.why-udemy-banner-desc-container .row {
+    padding: 0;
+    margin: 0;
+}
+
+.why-udemy-banner-desc{
+    margin-top: 16px;
+        border-left: 2px solid #a435f0;
+        padding: 0 12px;
+}
+.employee-stories{
+    margin: 10% 0;
+    padding: 0 10%;
+}
+.employee-stories-header-container .employee-stories-header{
+    text-align: center;
+    font-size: 64px;
+    line-height: 72px;
+}
+.employee-stories-header-container .employee-stories-desc{
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+.employee-stories-swiper-container .row{
+    padding: 0;
+    margin: 0;
+}
