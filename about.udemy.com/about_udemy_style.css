@@ -11,6 +11,16 @@
     text-decoration: none !important;
 }
 
+.career-link {
+    color: #5624d0;
+    font-size: 16px;
+}
+
+.career-link:hover {
+    color: #401b9c;
+    text-decoration: underline;
+}
+
 .revolutionize {
     width: 100%;
     /* margin: 0 0 5% 0; */
@@ -113,7 +123,8 @@
     color: #401b9c;
 }
 
-.why-udemy-sub-div-2 {
+.why-udemy-sub-div-2,
+.meet-our-teams-sub-div-2 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     /* justify-content: space-between; */
@@ -162,27 +173,168 @@ a.here-link:hover {
     margin: 0;
 }
 
-.why-udemy-banner-desc{
+.why-udemy-banner-desc {
     margin-top: 16px;
-        border-left: 2px solid #a435f0;
-        padding: 0 12px;
+    border-left: 2px solid #a435f0;
+    padding: 0 12px;
 }
-.employee-stories{
+
+.employee-stories {
     margin: 10% 0;
     padding: 0 10%;
 }
-.employee-stories-header-container .employee-stories-header{
+
+.employee-stories-header-container .employee-stories-header {
     text-align: center;
     font-size: 64px;
     line-height: 72px;
 }
-.employee-stories-header-container .employee-stories-desc{
+
+.employee-stories-header-container .employee-stories-desc {
     font-size: 18px;
     max-width: 700px;
     margin: 20px auto;
     text-align: center;
 }
-.employee-stories-swiper-container .row{
+
+.employee-stories-swiper-container .row {
     padding: 0;
     margin: 0;
+}
+
+#meet-our-teams,
+#perks-and-benefits,
+.our-awards,
+#our-locations,
+.our-current-opportunities{
+    margin: 10% 0;
+    padding: 0 10%;
+}
+
+.meet-our-teams-header-container .meet-our-teams-header,
+.perks-and-benefits-header-container .perks-and-benefits-header,
+.our-awards-header-container .our-awards-header,
+.our-locations-header-container .our-locations-header {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    font-family: "Suisse Works"
+        Georgia Times "Times New Roman"
+        serif;
+}
+
+.meet-our-teams-header-container .meet-our-teams-desc,
+.perks-and-benefits-header-container .perks-and-benefits-header-desc,
+.our-awards-header-container .our-awards-header-desc,
+.our-locations-header-container .our-locations-header-desc {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.meet-our-teams-image-container .meet-our-teams-image-desc {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.meet-our-teams-image-link {
+    margin: 16px 0;
+}
+
+.perks-and-benefits-sub-div-2,
+.perks-and-benefits-sub-div-3 {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    gap: 1%;
+}
+
+.perks-and-benefits-roles-container {
+    border-top: 1px solid black;
+    padding: 12px 0;
+}
+
+.our-awards-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.our-awards-image-container .our-awards-image {
+    max-height: 100px;
+}
+
+.our-locations-sub-div-2 {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+}
+
+.our-locations-sub-div-3 {
+    margin: 5% 0;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+.our-current-opportunities-header{
+    font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+}
+.our-current-opportunities-sub-div-3{
+    margin: 5% 0;
+}
+.jobs .jobs-list ,
+.jobs-title-container .jobs-postings{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.jobs-title-container:last-child{
+    border-bottom: 1px solid black;
+}
+.jobs-title-container{
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+.jobs-title-container a.jobs-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+    line-height: 50px;
+}
+.jobs-postings .jobs-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* font-size: 24px;
+    line-height: 40px; */
+}
+.jobs-postings .jobs-link:hover{
+    text-decoration: none;
+}
+.jobs-link div{
+    font-size: 20px;
+        line-height: 2;
+}
+.jobs-link .jobs-position{
+    color: #5624d0;
+}
+.jobs-link .jobs-position:hover{
+    color: #401b9c;
+}
+.jobs-link .jobs-location{
+    color: black;
 }
