@@ -1798,6 +1798,7 @@ ul.ul-list-style-circle {
 .nav-link,
 .about-investors-container a {
     color: var(--black) !important;
+    font-size: 14px;
 }
 
 .nav-link:hover,

@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 /* careers */
 .career-btn {
     color: white !important;
@@ -62,7 +68,6 @@
     top: -1px;
     z-index: 1000;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08); */
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: hsla(0, 0%, 100%, .9);
 }
@@ -127,7 +132,6 @@
 .meet-our-teams-sub-div-2 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    /* justify-content: space-between; */
     gap: 1.33%;
 }
 
@@ -139,12 +143,17 @@
 
 .why-udemy-sub-div-3 {
     margin: 5% 0;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
-.why-udemy-sub-div-3 .row {
+/* .why-udemy-sub-div-3 .row {
     padding: 0;
     margin: 0;
-}
+} */
 
 .why-udemy-sub-div-3 .image-desc-container {
     display: flex;
@@ -197,16 +206,74 @@ a.here-link:hover {
     text-align: center;
 }
 
+.employee-slider-desc {
+    margin: auto;
+}
+
+.employee-slider-quote {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.employee-slider-name {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.employee-slider-title {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
 .employee-stories-swiper-container .row {
     padding: 0;
     margin: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container .swiper-slide {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 #meet-our-teams,
 #perks-and-benefits,
 .our-awards,
 #our-locations,
-.our-current-opportunities{
+.our-current-opportunities,
+.featured-blogs,
+.equal-opp-section {
     margin: 10% 0;
     padding: 0 10%;
 }
@@ -214,7 +281,8 @@ a.here-link:hover {
 .meet-our-teams-header-container .meet-our-teams-header,
 .perks-and-benefits-header-container .perks-and-benefits-header,
 .our-awards-header-container .our-awards-header,
-.our-locations-header-container .our-locations-header {
+.our-locations-header-container .our-locations-header,
+.featured-blogs-header-container .featured-blogs-header {
     font-weight: 700;
     font-size: 64px;
     line-height: 72px;
@@ -244,8 +312,7 @@ a.here-link:hover {
     margin: 16px 0;
 }
 
-.perks-and-benefits-sub-div-2,
-.perks-and-benefits-sub-div-3 {
+.perks-and-benefits-sub-div-2 {
     display: grid;
     grid-template-columns: 19% 19% 19% 19% 19%;
     gap: 1%;
@@ -285,56 +352,251 @@ a.here-link:hover {
     align-items: center;
     gap: 1%;
 }
-.our-current-opportunities-header{
+
+.our-current-opportunities-header {
     font-weight: 700;
-        font-size: 48px;
-        line-height: 72px;
+    font-size: 48px;
+    line-height: 72px;
 }
-.our-current-opportunities-sub-div-3{
+
+.our-current-opportunities-sub-div-3 {
     margin: 5% 0;
 }
-.jobs .jobs-list ,
-.jobs-title-container .jobs-postings{
+
+.jobs .jobs-list,
+.jobs-title-container .jobs-postings {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.jobs-title-container:last-child{
+
+.jobs-title-container:last-child {
     border-bottom: 1px solid black;
 }
-.jobs-title-container{
+
+.jobs-title-container {
     border-top: 1px solid black;
     padding: 20px 0;
 }
-.jobs-title-container a.jobs-title{
+
+.jobs-title-container a.jobs-title {
     color: black;
     font-size: 24px;
     font-weight: 700;
     padding: 20px 0;
     line-height: 50px;
 }
-.jobs-postings .jobs-link{
+
+.jobs-postings .jobs-link {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    /* font-size: 24px;
-    line-height: 40px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.jobs-postings .jobs-link:hover{
+.jobs-postings .jobs-link:hover {
     text-decoration: none;
 }
-.jobs-link div{
+
+.jobs-link div {
     font-size: 20px;
-        line-height: 2;
+    line-height: 2;
 }
-.jobs-link .jobs-position{
+
+.jobs-link .jobs-position {
     color: #5624d0;
 }
-.jobs-link .jobs-position:hover{
+
+.jobs-link .jobs-position:hover {
     color: #401b9c;
 }
-.jobs-link .jobs-location{
+
+.jobs-link .jobs-location {
     color: black;
+}
+
+.featured-blogs-sub-div-2 {
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-blogs-image-container .image-desc {
+    padding: 16px;
+    font-size: 18px;
+}
+
+.image-desc a {
+    color: #5624d0;
+    text-decoration: underline;
+}
+
+.image-desc a:hover {
+    color: #401b9c;
+}
+
+.equal-opp-copy p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.equal-opp-copy p span {
+    font-weight: 400;
+}
+
+.equal-opp-copy p a {
+    color: #5624d0;
+}
+
+.equal-opp-copy p a:hover {
+    color: #401b9c;
+}
+
+.equal-opp-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.equal-opp-image a {
+    width: 100px;
+}
+
+.equal-opp-image-desc {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.connect-with-us {
+    margin: 10% 0 20px 0;
+    padding: 0 10%;
+}
+
+.connect-with-us-container,
+.connect-with-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-with-us-header {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.connect-with-us-container a {
+    font-size: 16px;
+}
+
+.connect-with-us a div {
+    padding: 0 28px;
+    height: 40px;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%) brightness(0) opacity(42%);
+    transition: all .5s ease;
+}
+
+.connect-with-us-container img {
+    height: 100%;
+    width: 100%;
+}
+.form-group button{
+    width: 100%;
+}
+@media screen and (max-width:1200px) {
+    .perks-and-benefits-sub-div-2 {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        gap: 1%;
+    }
+
+    .why-udemy-sub-div-2 {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        gap: 2%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .perks-and-benefits-sub-div-2 {
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        gap: 1.33%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .revolutionize-container .video-summery-container,
+    .why-udemy-sub-div-3 {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 2%;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .why-udemy-sub-div-3 {
+        margin: 5% 0;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .like-navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .why-udemy-sub-div-2 {
+            display: grid;
+            grid-template-columns: 100%;
+            row-gap: 2%;
+        }
+                .meet-our-teams-sub-div-2 {
+                    display: grid;
+                    grid-template-columns: 100%;
+                    /* row-gap: 2%; */
+                }
+                                .perks-and-benefits-sub-div-2 {
+                                    display: grid;
+                                    grid-template-columns: 49% 49%;
+                                    gap: 2%;
+                                }
+}
+
+@media screen and (max-width:600px) {
+    .our-locations-sub-div-2 {
+            display: grid;
+            grid-template-columns: 100%;
+            row-gap: 2%;
+        }
+                .jobs-postings .jobs-link {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: start;
+                    flex-wrap: nowrap;
+                }
+                                .featured-blogs-sub-div-2 {
+                                    margin: 5% 0;
+                                    display: grid;
+                                    grid-template-columns: 100%;
+                                    justify-content: start;
+                                    align-items: start;
+                                }
+                                                                .connect-with-us-container {
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                }
 }
