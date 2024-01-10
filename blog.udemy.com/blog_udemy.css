@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --text-color: #6a6f73;
+}
+
+/* blog page */
+.nav-logo_wrapper .nav-link-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.container .row {
+    margin: 0;
+    padding: 0;
+}
+
+.home-marquee_text-block h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Suisse Works", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.home-marquee_text-block p {
+    font-size: 1.4rem;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav-item .nav-link {
+    color: var(--white);
+}
+
+.nav-item .nav-link:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+/* articles */
+.articles-card-container-1 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+.article-card-2:first-child{
+    padding: 0 24px 12px 0;
+}
+.article-card-2:not(:first-child){
+    padding: 0 24px 12px;
+}
+
+.article-card-2:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.article-card-1 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 24px;
+}
+
+.article-card-1:hover,
+.article-card-2:hover{
+    cursor: grab;
+}
+
+.article-category {
+    display: block;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.article-title a {
+    color: #1c1d1f;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: block !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    text-decoration: none;
+}
+
+.article-title a:hover{
+    text-decoration: none;
+        color: #5624d0;
+}
+
+.article-author-name {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 19px;
+    display: flex;
+    
+}
+
+.article-card-container-2 {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    
+}
+.header-see-all-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 12px;
+}
+
+.popular-articles,
+.hr-l-d-articles,
+.it-software-articles,
+.empower-your-team{
+    margin: 5% 0;
+}
+
+.popular-articles-container,
+.hr-l-d-articles-container,
+.it-software-articles-container,
+.soft-skills-articles-container{
+    padding: 0 5%;
+}
+.category-links-see-all{
+    color: #5624d0;
+    font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+}
+.category-links-see-all:hover{
+    text-decoration: underline;
+    color: #401b9c;
+}
