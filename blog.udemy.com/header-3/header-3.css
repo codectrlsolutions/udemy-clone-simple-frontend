@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-3 {
+    padding: 12px 24px;
+}
+
+.a-header-3 {
+    color: black !important;
+    border-left: 1px solid black !important;
+}
+
+.a-header-3:hover {
+    color: #5624d0 !important;
+    text-decoration: none !important;
+}
+
+.btn-header-3 {
+    padding: 13px 16px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.udemy-business-text{
+    color: black;
+}
+.udemy-business-text:hover{
+    background-color: black;
+    color: white;
+}
+.browse-udemy-courses-text{
+    color: white;
+    background-color: black;
+}
+.browse-udemy-courses-text:hover{
+    background-color: #393b3f;
+}
+
+/* .btn-blog-page {
+    color: var(--white);
+    font-weight: 700;
+    padding: 13px 16px;
+    background: #1c1d1f;
+    border: #1c1d1f;
+    text-decoration: none;
+}
+
+.btn-blog-page:hover {
+    background: #393b3f;
+    color: #fff;
+} */
