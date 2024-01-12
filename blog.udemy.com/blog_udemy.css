@@ -11,7 +11,6 @@
 }
 
 /* blog page */
-
 .container .row {
     margin: 0;
     padding: 0;
@@ -112,7 +111,6 @@
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     justify-content: space-between;
-
 }
 
 .header-see-all-container {
@@ -222,4 +220,53 @@
 
 .teach-the-world-online {
     margin: 24px 0;
+}
+
+.article-author-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.article-author-img {
+    margin-right: 12px;
+}
+
+.article-author-img img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .articles-card-container-1 {
+            display: grid;
+            grid-template-columns: 49% 49%;
+            justify-content: space-between;
+        }
+    .article-card-container-2 {
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px) {
+    .articles-card-container-1 {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+    .article-card-container-2 {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:540px){
+    .article-card-container-2 {
+            display: grid;
+            grid-template-columns: 100%;
+            justify-content: center;
+        }
 }
