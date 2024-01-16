@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* investor page */
+body {
+    font-family: 'Udemy Sans', 'SF Pro Text', Helvetica, Arial, sans-serif;
+}
+
+.udemy-reach,
+.transforming,
+.latest-news,
+.events,
+.email-alerts,
+.market-place-videos {
+    padding: 0 5%;
+    margin: 5% 0;
+}
+
+.udemy-reach .row,
+.latest-news-contianer .row,
+.events .row,
+.alert-type-container .row,
+.market-place-container .row {
+    margin: 0;
+    padding: 0;
+}
+
+.udemy-reach-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.udemy-reach-header-support-text {
+    text-align: center;
+    font-size: 19px;
+}
+
+.transforming-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.transforming-container p.transforming-desc {
+    text-align: center;
+    font-size: 18px;
+}
+
+.udemy-glance {
+    margin: 5% 0;
+}
+
+.udemy-glance-container {
+    background: #5624d0;
+    color: #fff;
+    padding: 3.2rem;
+}
+
+.udemy-glance-container .udemy-glance-header,
+.latest-news-contianer .latest-news-header,
+.events-contianer .events-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.udemy-glance-metrics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.udemy-glance-metrics .glance-metric {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    flex: 1 1 22%;
+    margin: 20px 0;
+}
+
+.glance-metric span {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-container {
+    padding: 0 10%;
+    background-color: #5624d0;
+}
+
+.investors-banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.investors-header-container {
+    align-self: center;
+    text-align: center;
+    margin: auto;
+}
+
+.udemy-glance-note {
+    font-size: small;
+    margin: 20px 10%;
+}
+
+.market-place-container {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 24px;
+}
+
+.news,
+.events {
+    text-align: center;
+}
+
+a.news-title,
+a.events-title {
+    color: black;
+    font-size: 24px;
+}
+
+a.news-title:hover,
+a.events-title:hover {
+    color: #5624d0;
+    text-decoration: none;
+}
+
+.news-date,
+.events-date {
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.view-all-contaier {
+    text-align: center;
+    margin-top: 24px;
+}
+
+a.view-all-text,
+.submit-btn {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    padding: 13px 24px;
+    text-decoration: none;
+}
+
+a.view-all-contaier:hover,
+.submit-btn:hover {
+    background-color: #3e4143 !important;
+    color: #fff;
+}
+
+.submit-btn {
+    margin-top: 12px;
+}
+
+.alert-checkbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.alert-checkbox-container div:not(:last-child) {
+    margin-right: 24px;
+}
+
+.alert-type-container {
+    margin-top: 24px;
+}
