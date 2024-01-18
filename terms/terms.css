@@ -50,7 +50,35 @@
     color: white !important;
 }
 
-.alert-banner{
+.alert-banner {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 12px;
+}
+
+table tr td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+p a,
+li a {
+    color: #5624d0;
+}
+
+p a:hover,
+li a:hover {
+    color: #401b9c
+}
+
+u {
+    text-decoration-color: #8072e6;
+}
+
+.text-without-underlined-links li a {
+    text-decoration: none;
 }
